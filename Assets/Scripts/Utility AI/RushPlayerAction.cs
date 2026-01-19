@@ -12,11 +12,18 @@ public class RushPlayerAction : UtilityAction
     public override void Execute(EnemyContext context)
     {
         Debug.Log("RushPlayerAction");
-        float directionX = Mathf.Sign(context.player.position.x - context.transform.position.x);
+        //float directionX = Mathf.Sign(context.player.position.x - context.transform.position.x);
 
-        // Mantém velocidade vertical atual (gravidade)
-        Vector2 newVelocity = new Vector2(directionX * context.moveSpeed, context.rb.linearVelocity.y);
+        //// Mantém velocidade vertical atual (gravidade)
+        //Vector2 newVelocity = new Vector2(directionX * context.moveSpeed, context.rb.linearVelocity.y);
 
-        context.rb.linearVelocity = newVelocity;
+        //context.rb.linearVelocity = newVelocity;
+
+        float dir = Mathf.Sign(
+            context.player.position.x - context.transform.position.x
+        );
+
+        context.capangaController.Move(dir);
+        context.capangaController.FaceDirection(dir);
     }
 }
