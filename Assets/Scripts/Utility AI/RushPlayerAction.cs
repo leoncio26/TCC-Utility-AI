@@ -6,6 +6,13 @@ public class RushPlayerAction : UtilityAction
     public override float Score(EnemyContext context)
     {
         // Sempre tem algum score, capanga burro corre pra cima
+        float dist = Mathf.Abs(
+            context.transform.position.x - context.player.position.x
+        );
+
+        if (dist <= context.combat.attackRange)
+            return 0f;
+
         return 0.6f;
     }
 

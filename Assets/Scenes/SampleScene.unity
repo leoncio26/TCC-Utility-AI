@@ -401,6 +401,8 @@ GameObject:
   - component: {fileID: 1175683145}
   - component: {fileID: 1175683146}
   - component: {fileID: 1175683147}
+  - component: {fileID: 1175683149}
+  - component: {fileID: 1175683148}
   m_Layer: 0
   m_Name: CapangaSkin
   m_TagString: Untagged
@@ -509,6 +511,8 @@ MonoBehaviour:
   capangaController: {fileID: 0}
   attackRange: 1.5
   moveSpeed: 3
+  animator: {fileID: 0}
+  combat: {fileID: 0}
   rb: {fileID: 0}
 --- !u!50 &1175683144
 Rigidbody2D:
@@ -609,6 +613,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &1175683148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175683139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b9b52d51b4299647a6add1b68aff115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRange: 1.2
+  attackCooldown: 1
+  damage: 10
+--- !u!114 &1175683149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175683139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9294ef996a2c2d348b23c58aa2f2763a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1198625887
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,7 +696,7 @@ Transform:
   m_GameObject: {fileID: 1593550554}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.94, y: -2.696, z: 0}
+  m_LocalPosition: {x: -3.94, y: -2.696, z: 0}
   m_LocalScale: {x: 5.3487, y: 5.3487, z: 5.3487}
   m_ConstrainProportionsScale: 0
   m_Children:
