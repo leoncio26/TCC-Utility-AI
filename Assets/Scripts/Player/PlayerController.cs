@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
         if(collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
-            Console.WriteLine("Verifica colisão com o chão");
+            Console.WriteLine("Verifica colisï¿½o com o chï¿½o");
             anim.SetBool("IsJump", false);
         }
     }

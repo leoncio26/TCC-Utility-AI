@@ -12,10 +12,10 @@ public class CircleAroundPlayerAction : UtilityAction
     [Tooltip("Tolerancia para considerar 'chegou' a possivel alvo (em unidades).")]
     public float arrivalTolerance = 0.12f;
 
-    // Se quiser que, ao chegar, ele pare e permane�a por X segundos antes de recalcular:
+    // Se quiser que, ao chegar, ele pare e permaneça por X segundos antes de recalcular:
     public float holdTimeOnArrival = 0f;
 
-    // Estado interno (opcional): tempo que est� segurando quando chegou
+    // Estado interno (opcional): tempo que esta segurando quando chegou
     private float holdTimer = 0f;
 
     public override float Score(EnemyContext context)

@@ -25,7 +25,6 @@ public class MeleeAttackAction : UtilityAction
 
     public override void Execute(EnemyContext context)
     {
-        // Aqui você põe sua animação de ataque
         Debug.Log("Capanga atacou!");
         //context.rb.linearVelocity = Vector2.zero;
 
