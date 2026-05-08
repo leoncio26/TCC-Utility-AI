@@ -431,6 +431,7 @@ GameObject:
   - component: {fileID: 985872884}
   - component: {fileID: 985872886}
   - component: {fileID: 985872887}
+  - component: {fileID: 985872888}
   m_Layer: 0
   m_Name: Boss Skin
   m_TagString: Untagged
@@ -447,8 +448,8 @@ Transform:
   m_GameObject: {fileID: 985872880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.78, y: -0.8802, z: 0}
-  m_LocalScale: {x: 1, y: 2.7604, z: 1}
+  m_LocalPosition: {x: 6.3977, y: -1.2313, z: 0}
+  m_LocalScale: {x: 1.799207, y: 2.0581543, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 514003346}
@@ -497,7 +498,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -897908096885190414, guid: 49dd9d2ecb3e2c34d87282400951662c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -521,7 +522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 11400000, guid: 424cf064f35b3ee44a28df29f7eb987c, type: 2}
+  - {fileID: 11400000, guid: 0c63deb685562f640af60e637fc21710, type: 2}
 --- !u!114 &985872885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -573,6 +574,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  animator: {fileID: 985872888}
+  spinDuration: 1.5
+  spinSpeed: 12
+  rotationSpeed: 1080
+  windupTime: 0.4
+  recoveryTime: 0.5
+  context: {fileID: 985872885}
+--- !u!95 &985872888
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985872880}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 735845ef41c79b14ca454bd1f9af1048, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1175683139
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,7 +987,7 @@ Transform:
   m_GameObject: {fileID: 1776521852}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.79, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1057,7 +1087,6 @@ MonoBehaviour:
   addJumps: 0
   isGrounded: 0
   jumpForce: 10
-  isParado: 0
 --- !u!70 &1776521857
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

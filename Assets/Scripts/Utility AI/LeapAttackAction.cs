@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 [CreateAssetMenu(fileName = "LeapAttackAction", menuName = "Scriptable Objects/LeapAttackAction")]
 public class LeapAttackAction : UtilityAction
