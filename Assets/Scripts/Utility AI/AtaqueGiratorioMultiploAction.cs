@@ -1,8 +1,8 @@
 using System.Collections;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "AtaqueGiratorioAction", menuName = "Scriptable Objects/AtaqueGiratorioAction")]
-public class AtaqueGiratorioAction : UtilityAction
+[CreateAssetMenu(fileName = "AtaqueGiratorioMultiploAction", menuName = "Scriptable Objects/AtaqueGiratorioMultiploAction")]
+public class AtaqueGiratorioMultiplo : UtilityAction
 {
     [Header("Distance")]
     public float minDistance = 8f;
@@ -38,24 +38,23 @@ public class AtaqueGiratorioAction : UtilityAction
 
         // Peso final da utility
         return curved * weight;
-
     }
 
     public override void Execute(EnemyContext context)
     {
-        //Debug.Log("Executa o Ataque Giratorio");
+        context.executing = true;
+
         context.StartCoroutine(SpinningAttackRoutine(context));
     }
 
     private IEnumerator SpinningAttackRoutine(EnemyContext context)
     {
-        Debug.Log("Executa o Ataque Giratorio refatorado");
+        Debug.Log("Executa o Ataque Giratorio Multiplo");
         var transform = context.transform;
         var animator = context.animator;
+        int numAttacks = 3;
 
-        context.executing = true;
-
-        animator.SetTrigger("SpinAttack");
+        animator.SetBool("SpinAttack", true);
 
         float directionX =
             Mathf.Sign(context.player.position.x - transform.position.x);
@@ -68,7 +67,7 @@ public class AtaqueGiratorioAction : UtilityAction
 
         float timer = 0f;
 
-        while (true)
+        while (numAttacks > 0)
         {
             timer += Time.deltaTime;
 
@@ -86,20 +85,22 @@ public class AtaqueGiratorioAction : UtilityAction
             if (transform.position.x <= context.leftLimit.position.x ||
                 transform.position.x >= context.rightLimit.position.x)
             {
-                break;
+                attackDirection *= -1;
+                numAttacks--;
+                Debug.Log("NumGiro: " + numAttacks);
+                yield return new WaitForSeconds(0.15f);
             }
 
             yield return null;
         }
 
-        Debug.Log("Finalizou giro");
+        Debug.Log("Finalizou giro multiplo");
+
+        transform.localRotation = Quaternion.identity;
+
+        context.executing = false;
 
         animator.SetBool("SpinAttack", false);
 
-        transform.localRotation = Quaternion.identity;
-        
-        yield return new WaitForSeconds(recoveryTime);
-        
-        context.executing = false;
     }
 }
