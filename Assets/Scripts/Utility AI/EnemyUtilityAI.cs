@@ -3,6 +3,7 @@ using UnityEngine;
 public class EnemyUtilityAI : MonoBehaviour
 {
     public UtilityAction[] actions;
+    
     private EnemyContext context;
 
     private void Start()
@@ -14,6 +15,10 @@ public class EnemyUtilityAI : MonoBehaviour
     {
         UtilityAction best = null;
         float bestScore = 0f;
+
+        if (context.executing) return;
+
+        Debug.Log("Escolheu uma action");
 
         foreach (var action in actions)
         {

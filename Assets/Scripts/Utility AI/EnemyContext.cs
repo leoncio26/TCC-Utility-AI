@@ -6,12 +6,17 @@ public class EnemyContext : MonoBehaviour
     public PlayerController playerController;
     public CapangaController capangaController;
     public BossController bossController;
-    public EnemyAnimator animator;
+    public Animator animator;
     public EnemyCombat combat;
     public float attackRange = 1.5f;
     public float moveSpeed = 3f;
     public float lastLeapTime = 3f;
     public bool isLeaping;
+    public bool executing = false;
+
+    [Header("Area Bounds")]
+    public Transform leftLimit;
+    public Transform rightLimit;
 
     [HideInInspector] public Rigidbody2D rb;
 
@@ -20,7 +25,7 @@ public class EnemyContext : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         capangaController = GetComponent<CapangaController>();
         bossController = GetComponent<BossController>();
-        animator = GetComponent<EnemyAnimator>();
+        //animator = GetComponent<EnemyAnimator>();
         combat = GetComponent<EnemyCombat>();
     }
 }

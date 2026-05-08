@@ -37,10 +37,10 @@ public class MeleeAttackAction : UtilityAction
         );
         context.capangaController.FaceDirection(dir);
 
-        // animação
-        context.animator.PlayAttack();
+        // animaÃ§Ã£o
+        context.animator.SetTrigger("CapangaAttack");
 
-        // ataque lógico
+        // ataque lÃ³gico
         context.combat.Attack(
             context.transform,
             context.player
