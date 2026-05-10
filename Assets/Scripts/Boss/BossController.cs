@@ -5,16 +5,10 @@ public class BossController : MonoBehaviour
 {
     public float speed;
     public Animator animator;
-    public Transform leftLimit;
-    public Transform rightLimit;
 
-    [Header("Spin Attack")]
-    public float spinDuration = 1.5f;
-    public float spinSpeed = 12f;
-    public float rotationSpeed = 1080f;
-    public float windupTime = 0.4f;
-    public float recoveryTime = 0.5f;
-    public EnemyContext context;
+    public HealthBar healthBar;
+    private float life = 100.0f;
+    private float maxLife = 100.0f;
 
     private bool isAttacking;
     private Rigidbody2D rb;
@@ -28,11 +22,24 @@ public class BossController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     //   if(isAttacking) animator.Play("AtaqueGiratorio");
+        //   if(isAttacking) animator.Play("AtaqueGiratorio");
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    TakeDamage(10);
+        //}
     }
 
     public void Move(float direction)
     {
         transform.position = new Vector2(direction * speed, transform.position.y);
+    }
+
+    public void TakeDamage(float damage)
+    {
+        Debug.Log("Dano: " + life);
+        life -= damage;
+        life = Mathf.Max(life, 0.0f);
+
+        healthBar.UpdateHealthBar(maxLife, life);
     }
 }

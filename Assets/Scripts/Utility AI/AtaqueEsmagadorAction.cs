@@ -18,7 +18,7 @@ public class AtaqueEsmagadorAction : UtilityAction
     public override float Score(EnemyContext context)
     {
         var distance = Vector3.Distance(context.transform.position, context.player.position);
-        Debug.Log("distance: " + distance);
+        //Debug.Log("distance: " + distance);
 
         if (distance > maxDistance) return 0;
 
@@ -29,7 +29,7 @@ public class AtaqueEsmagadorAction : UtilityAction
             distance
         );
 
-        Debug.Log("normalized: " + normalized);
+        //Debug.Log("normalized: " + normalized);
 
         return 1f - normalized;
     }

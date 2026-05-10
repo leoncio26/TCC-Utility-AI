@@ -18,7 +18,7 @@ public class EnemyUtilityAI : MonoBehaviour
 
         if (context.executing) return;
 
-        Debug.Log("Escolheu uma action");
+        //Debug.Log("Escolheu uma action");
 
         foreach (var action in actions)
         {
