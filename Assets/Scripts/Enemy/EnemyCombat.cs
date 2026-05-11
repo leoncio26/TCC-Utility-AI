@@ -21,7 +21,7 @@ public class EnemyCombat : MonoBehaviour
         if (dist <= attackRange)
         {
             // aqui você chamaria o método de dano do jogador
-            Debug.Log("Dano aplicado no jogador");
+            //Debug.Log("Dano aplicado no jogador");
         }
     }
 }

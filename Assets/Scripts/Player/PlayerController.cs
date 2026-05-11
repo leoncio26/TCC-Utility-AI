@@ -27,7 +27,6 @@ public class PlayerController : MonoBehaviour
     {
         moveX = Input.GetAxis("Horizontal");
         //textLife.text = life.ToString();
-        Attack();
 
         if (isGrounded)
         {
@@ -68,13 +67,6 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("IsJump", true);
     }
 
-    void Attack()
-    {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            anim.Play("Attack", -1);
-        }
-    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

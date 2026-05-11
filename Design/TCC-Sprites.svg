@@ -24,9 +24,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showborder="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="-256.67976"
-     inkscape:cy="137.53227"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="-50.911687"
+     inkscape:cy="-443.17916"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -1386,17 +1386,157 @@
        height="36.623096"
        x="35.233582"
        y="99.484436" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.116905;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0"
+       id="rect106-1"
+       width="49.703094"
+       height="36.623096"
+       x="-28.690739"
+       y="-137.58211"
+       inkscape:export-filename="..\Assets\Images\Enemies\Boss\BossComEscudo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <g
-       id="g296"
+       id="g295"
+       transform="translate(3.7183888,3.110349)"
+       style="mix-blend-mode:normal">
+      <g
+         id="g14-1"
+         inkscape:transform-center-x="10.153467"
+         transform="rotate(-139.18183,-53.290683,11.384973)"
+         inkscape:transform-center-y="-9.3314386"
+         inkscape:export-filename="..\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <g
+           id="g15-2"
+           inkscape:transform-center-x="-11.786586"
+           transform="translate(-14.68646,25.069882)">
+          <rect
+             style="fill:#784421;stroke-width:0.462522;stroke-linecap:round;stroke-linejoin:round"
+             id="rect8-2-5-3"
+             width="2.0181432"
+             height="3.2916517"
+             x="-8.293951"
+             y="7.8112965"
+             ry="1.4251229"
+             rx="0.54824406" />
+          <rect
+             style="fill:#854b25;fill-opacity:1;stroke-width:0.164415;stroke-linecap:round;stroke-linejoin:round"
+             id="rect9-7-7-3"
+             width="1.730419"
+             height="0.48500863"
+             x="-8.293951"
+             y="7.8112965"
+             ry="0.23940372"
+             rx="0.29502997" />
+          <rect
+             style="fill:#808080;stroke-width:1.30594;stroke-linecap:round;stroke-linejoin:round"
+             id="rect1-6-6-4"
+             width="5.2786851"
+             height="12.756824"
+             x="-12.4445"
+             y="2.9104178"
+             ry="0.51536369"
+             rx="0.51536369" />
+          <rect
+             style="fill:#666666;stroke-width:0.602503;stroke-linecap:round;stroke-linejoin:round"
+             id="rect7-1-1-1"
+             width="1.1235651"
+             height="12.756824"
+             x="-12.4445"
+             y="2.9104178"
+             ry="0.51536369"
+             rx="0.51536369" />
+          <rect
+             style="fill:#4a342a;fill-opacity:1;stroke-width:0.180142;stroke-linecap:round;stroke-linejoin:round"
+             id="rect3-4-8-1"
+             width="0.28989142"
+             height="3.4760976"
+             x="-12.041439"
+             y="7.7261677"
+             ry="0.16105115"
+             rx="0.16105115" />
+          <rect
+             style="fill:#784421;stroke-width:0.3878;stroke-linecap:round;stroke-linejoin:round"
+             id="rect2-2-9-3"
+             width="1.4187409"
+             height="3.2916517"
+             x="-13.216301"
+             y="7.8112965"
+             ry="0.79247504"
+             rx="0.16105114" />
+          <rect
+             style="fill:#784421;stroke-width:1.375;stroke-linecap:round;stroke-linejoin:round"
+             id="rect10-3-2-8"
+             width="17.835772"
+             height="3.2916517"
+             x="-29.633331"
+             y="7.8112965"
+             ry="1.6458259"
+             rx="0.61499047" />
+          <rect
+             style="fill:#854b25;fill-opacity:1;stroke-width:0.430534;stroke-linecap:round;stroke-linejoin:round"
+             id="rect6-2-7-7"
+             width="17.291039"
+             height="0.37327695"
+             x="-29.155827"
+             y="7.8127575"
+             ry="0.15813674"
+             rx="0.10843211" />
+        </g>
+      </g>
+      <rect
+         style="fill:#aa0000;stroke-width:0.0965609;stroke-linecap:round;stroke-linejoin:round"
+         id="rect62-4"
+         width="10.914062"
+         height="26.458334"
+         x="-54.030464"
+         y="-25.192963"
+         rx="0"
+         ry="0"
+         inkscape:export-filename="..\..\Faculdade\TCC\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m -45.382295,-20.282067 -2.068149,-1.341166"
+         id="path11-5-2" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m -44.279248,-20.418159 1.88465,-1.588728"
+         id="path12-1-7" />
+      <ellipse
+         style="fill:#f9f9f9;stroke-width:0.0707107;stroke-linecap:round;stroke-linejoin:round"
+         id="path63-7"
+         cx="-44.780594"
+         cy="-18.809902"
+         rx="0.79374999"
+         ry="1.7528646" />
+      <ellipse
+         style="fill:#1a1a1a;stroke-width:0.0360224;stroke-linecap:round;stroke-linejoin:round"
+         id="ellipse65-9"
+         cx="-44.780594"
+         cy="-18.809902"
+         rx="0.40436321"
+         ry="0.89296877" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.535709;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m -45.601327,-15.136305 2.125565,-0.0051"
+         id="path66-3" />
+    </g>
+    <g
+       id="g296-8"
        inkscape:export-filename="..\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       transform="translate(-36.278403,-129.81895)">
       <g
-         id="g295"
+         id="g295-2"
          transform="translate(37.020171,-1.1926903)"
          style="mix-blend-mode:normal">
         <g
-           id="g14-1"
+           id="g14-1-4"
            inkscape:transform-center-x="10.153467"
            transform="rotate(-139.18183,-53.290683,11.384973)"
            inkscape:transform-center-y="-9.3314386"
@@ -1404,12 +1544,12 @@
            inkscape:export-xdpi="96"
            inkscape:export-ydpi="96">
           <g
-             id="g15-2"
+             id="g15-2-5"
              inkscape:transform-center-x="-11.786586"
              transform="translate(-14.68646,25.069882)">
             <rect
                style="fill:#784421;stroke-width:0.462522;stroke-linecap:round;stroke-linejoin:round"
-               id="rect8-2-5-3"
+               id="rect8-2-5-3-5"
                width="2.0181432"
                height="3.2916517"
                x="-8.293951"
@@ -1418,7 +1558,7 @@
                rx="0.54824406" />
             <rect
                style="fill:#854b25;fill-opacity:1;stroke-width:0.164415;stroke-linecap:round;stroke-linejoin:round"
-               id="rect9-7-7-3"
+               id="rect9-7-7-3-1"
                width="1.730419"
                height="0.48500863"
                x="-8.293951"
@@ -1427,7 +1567,7 @@
                rx="0.29502997" />
             <rect
                style="fill:#808080;stroke-width:1.30594;stroke-linecap:round;stroke-linejoin:round"
-               id="rect1-6-6-4"
+               id="rect1-6-6-4-7"
                width="5.2786851"
                height="12.756824"
                x="-12.4445"
@@ -1436,7 +1576,7 @@
                rx="0.51536369" />
             <rect
                style="fill:#666666;stroke-width:0.602503;stroke-linecap:round;stroke-linejoin:round"
-               id="rect7-1-1-1"
+               id="rect7-1-1-1-1"
                width="1.1235651"
                height="12.756824"
                x="-12.4445"
@@ -1445,7 +1585,7 @@
                rx="0.51536369" />
             <rect
                style="fill:#4a342a;fill-opacity:1;stroke-width:0.180142;stroke-linecap:round;stroke-linejoin:round"
-               id="rect3-4-8-1"
+               id="rect3-4-8-1-1"
                width="0.28989142"
                height="3.4760976"
                x="-12.041439"
@@ -1454,7 +1594,7 @@
                rx="0.16105115" />
             <rect
                style="fill:#784421;stroke-width:0.3878;stroke-linecap:round;stroke-linejoin:round"
-               id="rect2-2-9-3"
+               id="rect2-2-9-3-5"
                width="1.4187409"
                height="3.2916517"
                x="-13.216301"
@@ -1463,7 +1603,7 @@
                rx="0.16105114" />
             <rect
                style="fill:#784421;stroke-width:1.375;stroke-linecap:round;stroke-linejoin:round"
-               id="rect10-3-2-8"
+               id="rect10-3-2-8-2"
                width="17.835772"
                height="3.2916517"
                x="-29.633331"
@@ -1472,7 +1612,7 @@
                rx="0.61499047" />
             <rect
                style="fill:#854b25;fill-opacity:1;stroke-width:0.430534;stroke-linecap:round;stroke-linejoin:round"
-               id="rect6-2-7-7"
+               id="rect6-2-7-7-7"
                width="17.291039"
                height="0.37327695"
                x="-29.155827"
@@ -1483,7 +1623,7 @@
         </g>
         <rect
            style="fill:#aa0000;stroke-width:0.0965609;stroke-linecap:round;stroke-linejoin:round"
-           id="rect62-4"
+           id="rect62-4-6"
            width="10.914062"
            height="26.458334"
            x="-54.030464"
@@ -1496,21 +1636,21 @@
         <path
            style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
            d="m -45.382295,-20.282067 -2.068149,-1.341166"
-           id="path11-5-2" />
+           id="path11-5-2-1" />
         <path
            style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
            d="m -44.279248,-20.418159 1.88465,-1.588728"
-           id="path12-1-7" />
+           id="path12-1-7-4" />
         <ellipse
            style="fill:#f9f9f9;stroke-width:0.0707107;stroke-linecap:round;stroke-linejoin:round"
-           id="path63-7"
+           id="path63-7-2"
            cx="-44.780594"
            cy="-18.809902"
            rx="0.79374999"
            ry="1.7528646" />
         <ellipse
            style="fill:#1a1a1a;stroke-width:0.0360224;stroke-linecap:round;stroke-linejoin:round"
-           id="ellipse65-9"
+           id="ellipse65-9-3"
            cx="-44.780594"
            cy="-18.809902"
            rx="0.40436321"
@@ -1518,11 +1658,11 @@
         <path
            style="fill:none;stroke:#000000;stroke-width:0.535709;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
            d="m -45.601327,-15.136305 2.125565,-0.0051"
-           id="path66-3" />
+           id="path66-3-2" />
       </g>
       <rect
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.116905;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0"
-         id="rect106-4"
+         id="rect106-4-2"
          width="49.703094"
          height="36.623096"
          x="-31.294672"
@@ -3138,121 +3278,125 @@
        height="0.62838542"
        x="-40.944271"
        y="-74.579422" />
-    <rect
-       style="fill:#aa0000;stroke-width:0.0965609;stroke-linecap:round;stroke-linejoin:round"
-       id="rect293"
-       width="10.914062"
-       height="26.458334"
-       x="-54.030464"
-       y="-126.92525"
-       rx="0"
-       ry="0"
-       inkscape:export-filename="..\..\Faculdade\TCC\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m -45.382295,-122.01436 -2.068149,-1.34116"
-       id="path293" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m -44.279248,-122.15045 1.88465,-1.58873"
-       id="path294" />
-    <ellipse
-       style="fill:#f9f9f9;stroke-width:0.0707107;stroke-linecap:round;stroke-linejoin:round"
-       id="ellipse294"
-       cx="-44.780594"
-       cy="-120.54219"
-       rx="0.79374999"
-       ry="1.7528646" />
-    <ellipse
-       style="fill:#1a1a1a;stroke-width:0.0360224;stroke-linecap:round;stroke-linejoin:round"
-       id="ellipse295"
-       cx="-44.780594"
-       cy="-120.54219"
-       rx="0.40436321"
-       ry="0.89296877" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.535709;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m -45.601327,-116.8686 2.125565,-0.005"
-       id="path295" />
     <g
-       id="g293"
-       transform="matrix(0.46728231,0,0,1.0004711,-35.124817,-33.509744)">
-      <g
-         id="g286">
-        <g
-           id="g284"
-           style="fill:#666666"
-           transform="matrix(1,0,0,0.89971108,0,-7.0166844)">
-          <rect
-             style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.0670141;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-             id="rect282"
-             width="14.701446"
-             height="11.640171"
-             x="-26.995031"
-             y="-88.619667" />
-          <path
-             sodipodi:type="star"
-             style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.0819999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-             id="path282"
-             inkscape:flatsided="true"
-             sodipodi:sides="3"
-             sodipodi:cx="-24.50703"
-             sodipodi:cy="-75.340103"
-             sodipodi:r1="4.747231"
-             sodipodi:r2="2.7400951"
-             sodipodi:arg1="0.59959629"
-             sodipodi:arg2="1.6467938"
-             inkscape:rounded="0"
-             inkscape:randomized="0"
-             d="m -20.58789,-72.661197 -8.198712,-0.624284 4.640002,-6.788151 z"
-             inkscape:transform-center-x="-0.010411116"
-             inkscape:transform-center-y="1.1464552"
-             transform="matrix(1.7826609,0.07679679,0.13857854,-0.98790639,34.476919,-147.21557)" />
-        </g>
-        <g
-           id="g285"
-           transform="matrix(1,0,0,0.89971108,0,-7.0166844)">
-          <rect
-             style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0552527;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-             id="rect284"
-             width="12.12126"
-             height="9.5972557"
-             x="-25.70499"
-             y="-86.982643" />
-          <path
-             sodipodi:type="star"
-             style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0819999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-             id="path284"
-             inkscape:flatsided="true"
-             sodipodi:sides="3"
-             sodipodi:cx="-24.50703"
-             sodipodi:cy="-75.340103"
-             sodipodi:r1="4.747231"
-             sodipodi:r2="2.7400951"
-             sodipodi:arg1="0.59959629"
-             sodipodi:arg2="1.6467938"
-             inkscape:rounded="0"
-             inkscape:randomized="0"
-             d="m -20.58789,-72.661197 -8.198712,-0.624284 4.640002,-6.788151 z"
-             inkscape:transform-center-x="-0.0085832725"
-             inkscape:transform-center-y="0.94525003"
-             transform="matrix(1.4697939,0.06331852,0.11425723,-0.81452327,24.978287,-135.29463)" />
-        </g>
-      </g>
+       id="g5"
+       transform="translate(39.637889,-0.56223956)">
       <rect
-         style="fill:#868686;fill-opacity:0.487671;stroke:none;stroke-width:0.0819999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="rect286"
-         width="10.664055"
-         height="22.076462"
-         x="-30.261591"
-         y="-90.036423"
-         clip-path="url(#clipPath289)" />
+         style="fill:#aa0000;stroke-width:0.0965609;stroke-linecap:round;stroke-linejoin:round"
+         id="rect293"
+         width="10.914062"
+         height="26.458334"
+         x="-54.030464"
+         y="-126.92525"
+         rx="0"
+         ry="0"
+         inkscape:export-filename="..\..\Faculdade\TCC\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m -45.382295,-122.01436 -2.068149,-1.34116"
+         id="path293" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m -44.279248,-122.15045 1.88465,-1.58873"
+         id="path294" />
+      <ellipse
+         style="fill:#f9f9f9;stroke-width:0.0707107;stroke-linecap:round;stroke-linejoin:round"
+         id="ellipse294"
+         cx="-44.780594"
+         cy="-120.54219"
+         rx="0.79374999"
+         ry="1.7528646" />
+      <ellipse
+         style="fill:#1a1a1a;stroke-width:0.0360224;stroke-linecap:round;stroke-linejoin:round"
+         id="ellipse295"
+         cx="-44.780594"
+         cy="-120.54219"
+         rx="0.40436321"
+         ry="0.89296877" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.535709;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m -45.601327,-116.8686 2.125565,-0.005"
+         id="path295" />
+      <g
+         id="g293"
+         transform="matrix(0.46728231,0,0,1.0004711,-35.124817,-33.509744)">
+        <g
+           id="g286">
+          <g
+             id="g284"
+             style="fill:#666666"
+             transform="matrix(1,0,0,0.89971108,0,-7.0166844)">
+            <rect
+               style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.0670141;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+               id="rect282"
+               width="14.701446"
+               height="11.640171"
+               x="-26.995031"
+               y="-88.619667" />
+            <path
+               sodipodi:type="star"
+               style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.0819999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+               id="path282"
+               inkscape:flatsided="true"
+               sodipodi:sides="3"
+               sodipodi:cx="-24.50703"
+               sodipodi:cy="-75.340103"
+               sodipodi:r1="4.747231"
+               sodipodi:r2="2.7400951"
+               sodipodi:arg1="0.59959629"
+               sodipodi:arg2="1.6467938"
+               inkscape:rounded="0"
+               inkscape:randomized="0"
+               d="m -20.58789,-72.661197 -8.198712,-0.624284 4.640002,-6.788151 z"
+               inkscape:transform-center-x="-0.010411116"
+               inkscape:transform-center-y="1.1464552"
+               transform="matrix(1.7826609,0.07679679,0.13857854,-0.98790639,34.476919,-147.21557)" />
+          </g>
+          <g
+             id="g285"
+             transform="matrix(1,0,0,0.89971108,0,-7.0166844)">
+            <rect
+               style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0552527;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+               id="rect284"
+               width="12.12126"
+               height="9.5972557"
+               x="-25.70499"
+               y="-86.982643" />
+            <path
+               sodipodi:type="star"
+               style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0819999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+               id="path284"
+               inkscape:flatsided="true"
+               sodipodi:sides="3"
+               sodipodi:cx="-24.50703"
+               sodipodi:cy="-75.340103"
+               sodipodi:r1="4.747231"
+               sodipodi:r2="2.7400951"
+               sodipodi:arg1="0.59959629"
+               sodipodi:arg2="1.6467938"
+               inkscape:rounded="0"
+               inkscape:randomized="0"
+               d="m -20.58789,-72.661197 -8.198712,-0.624284 4.640002,-6.788151 z"
+               inkscape:transform-center-x="-0.0085832725"
+               inkscape:transform-center-y="0.94525003"
+               transform="matrix(1.4697939,0.06331852,0.11425723,-0.81452327,24.978287,-135.29463)" />
+          </g>
+        </g>
+        <rect
+           style="fill:#868686;fill-opacity:0.487671;stroke:none;stroke-width:0.0819999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           id="rect286"
+           width="10.664055"
+           height="22.076462"
+           x="-30.261591"
+           y="-90.036423"
+           clip-path="url(#clipPath289)" />
+      </g>
     </g>
     <g
        id="g311-8"
-       transform="matrix(0.31471156,0,0,0.31471156,46.512196,-77.402632)"
+       transform="matrix(0.31471156,0,0,0.31471156,-77.527588,-15.476284)"
        inkscape:export-filename="..\TCC - Utility AI\Assets\Images\Enemies\Boss\fireball.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -3539,6 +3683,80 @@
          cx="-138.44562"
          cy="197.56563"
          r="5.6126604" />
+    </g>
+    <g
+       id="g4"
+       transform="matrix(0.46728231,0,0,1.0004711,-35.124817,-62.695576)">
+      <g
+         id="g3">
+        <g
+           id="g1"
+           style="fill:#666666"
+           transform="matrix(1,0,0,0.89971108,0,-7.0166844)">
+          <rect
+             style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.0670141;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             id="rect1"
+             width="14.701446"
+             height="11.640171"
+             x="-26.995031"
+             y="-88.619667" />
+          <path
+             sodipodi:type="star"
+             style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.0819999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             id="path1"
+             inkscape:flatsided="true"
+             sodipodi:sides="3"
+             sodipodi:cx="-24.50703"
+             sodipodi:cy="-75.340103"
+             sodipodi:r1="4.747231"
+             sodipodi:r2="2.7400951"
+             sodipodi:arg1="0.59959629"
+             sodipodi:arg2="1.6467938"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m -20.58789,-72.661197 -8.198712,-0.624284 4.640002,-6.788151 z"
+             inkscape:transform-center-x="-0.010411116"
+             inkscape:transform-center-y="1.1464552"
+             transform="matrix(1.7826609,0.07679679,0.13857854,-0.98790639,34.476919,-147.21557)" />
+        </g>
+        <g
+           id="g2"
+           transform="matrix(1,0,0,0.89971108,0,-7.0166844)">
+          <rect
+             style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0552527;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             id="rect2"
+             width="12.12126"
+             height="9.5972557"
+             x="-25.70499"
+             y="-86.982643" />
+          <path
+             sodipodi:type="star"
+             style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0819999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             id="path2"
+             inkscape:flatsided="true"
+             sodipodi:sides="3"
+             sodipodi:cx="-24.50703"
+             sodipodi:cy="-75.340103"
+             sodipodi:r1="4.747231"
+             sodipodi:r2="2.7400951"
+             sodipodi:arg1="0.59959629"
+             sodipodi:arg2="1.6467938"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="m -20.58789,-72.661197 -8.198712,-0.624284 4.640002,-6.788151 z"
+             inkscape:transform-center-x="-0.0085832725"
+             inkscape:transform-center-y="0.94525003"
+             transform="matrix(1.4697939,0.06331852,0.11425723,-0.81452327,24.978287,-135.29463)" />
+        </g>
+      </g>
+      <rect
+         style="fill:#868686;fill-opacity:0.487671;stroke:none;stroke-width:0.0819999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="rect3"
+         width="10.664055"
+         height="22.076462"
+         x="-30.261591"
+         y="-90.036423"
+         clip-path="url(#clipPath289)" />
     </g>
   </g>
 </svg>

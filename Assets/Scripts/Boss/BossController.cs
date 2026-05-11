@@ -11,7 +11,8 @@ public class BossController : MonoBehaviour
     private float life = 100.0f;
     private float maxLife = 100.0f;
 
-    private bool isAttacking;
+    public bool playerAttacking;
+
     private Rigidbody2D rb;
 
     [SerializeField]
@@ -26,21 +27,8 @@ public class BossController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //   if(isAttacking) animator.Play("AtaqueGiratorio");
-        //if (Input.GetMouseButtonDown(0))
-        //{
-        //    TakeDamage(10);
-        //}
-
-        //float dir = Mathf.Sign(playerTransform.position.x - transform.position.x);
-        //transform.localScale = new Vector3(Mathf.Sign(dir), 1, 1);
-
-        //Debug.Log("Dir: " + dir);
-
-        //if (dir == 0) return;
-
-        sr.flipX = playerTransform.position.x < transform.position.x;
-        //Debug.Log("flipX: " + sr.flipX);
+        float dir = Mathf.Sign(playerTransform.position.x - transform.position.x);
+        Flip(dir);
     }
 
     public void Move(float direction)
@@ -55,5 +43,12 @@ public class BossController : MonoBehaviour
         life = Mathf.Max(life, 0.0f);
 
         healthBar.UpdateHealthBar(maxLife, life);
+    }
+
+    public void Flip(float direction)
+    {
+        Vector3 scale = transform.localScale;
+        scale.x = direction > 0 ? 1 : -1;
+        transform.localScale = scale;
     }
 }

@@ -25,7 +25,7 @@ public class MeleeAttackAction : UtilityAction
 
     public override void Execute(EnemyContext context)
     {
-        Debug.Log("Ataque Melee!");
+        //Debug.Log("Ataque Melee!");
         //context.rb.linearVelocity = Vector2.zero;
 
         // parar movimento
