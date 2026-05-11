@@ -30,7 +30,7 @@ public class RushPlayerAction : UtilityAction
             context.player.position.x - context.transform.position.x
         );
 
-        context.capangaController.Move(dir);
-        context.capangaController.FaceDirection(dir);
+        context.movement.Move(dir);
+        context.movement.FaceDirection(dir);
     }
 }

@@ -5,13 +5,17 @@ public class BossController : MonoBehaviour
 {
     public float speed;
     public Animator animator;
-
     public HealthBar healthBar;
+    public SpriteRenderer sr;
+
     private float life = 100.0f;
     private float maxLife = 100.0f;
 
     private bool isAttacking;
     private Rigidbody2D rb;
+
+    [SerializeField]
+    private Transform playerTransform;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,6 +31,16 @@ public class BossController : MonoBehaviour
         //{
         //    TakeDamage(10);
         //}
+
+        //float dir = Mathf.Sign(playerTransform.position.x - transform.position.x);
+        //transform.localScale = new Vector3(Mathf.Sign(dir), 1, 1);
+
+        //Debug.Log("Dir: " + dir);
+
+        //if (dir == 0) return;
+
+        sr.flipX = playerTransform.position.x < transform.position.x;
+        //Debug.Log("flipX: " + sr.flipX);
     }
 
     public void Move(float direction)

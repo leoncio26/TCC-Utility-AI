@@ -25,20 +25,19 @@ public class MeleeAttackAction : UtilityAction
 
     public override void Execute(EnemyContext context)
     {
-        Debug.Log("Capanga atacou!");
+        Debug.Log("Ataque Melee!");
         //context.rb.linearVelocity = Vector2.zero;
 
         // parar movimento
-        context.capangaController.Move(0);
+        context.movement.Move(0);
 
         // virar para o jogador
-        float dir = Mathf.Sign(
-            context.player.position.x - context.transform.position.x
-        );
-        context.capangaController.FaceDirection(dir);
+        float dir = Mathf.Sign(context.player.position.x - context.transform.position.x);
+
+        //context.movement.FaceDirection(dir);
 
         // animação
-        context.animator.SetTrigger("CapangaAttack");
+        context.animatorController.PlayAttackMelee();
 
         // ataque lógico
         context.combat.Attack(

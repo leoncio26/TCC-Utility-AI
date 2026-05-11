@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 49dd9d2ecb3e2c34d87282400951662c
+guid: 9827d787401fa02499af5569417fff63
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -897908096885190414
-    second: BossIde_0
+      213: 2940221626128423301
+    second: Martelada_0
+  - first:
+      213: 3932756287762753511
+    second: Martelada_1
+  - first:
+      213: -2937318869140954020
+    second: Martelada_2
+  - first:
+      213: -4263106783449725753
+    second: Martelada_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,23 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BossIde_0
+      name: Martelada_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 188
-        height: 139
+        width: 187
+        height: 137
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f0163cd75df983f0800000000000000
-      internalID: -897908096885190414
+      spriteID: 5895e42bdf3cdc820800000000000000
+      internalID: 2940221626128423301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martelada_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0
+        width: 187
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e76840d105f39630800000000000000
+      internalID: 3932756287762753511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martelada_2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 187
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c542dc41d0c8c37d0800000000000000
+      internalID: -2937318869140954020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Martelada_3
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 0
+        width: 187
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4cbe4a7f666d4c0800000000000000
+      internalID: -4263106783449725753
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c9b9f1057881aa1478fa47522b5c3975
+    spriteID: 69c27e6e81c9edb4a8fb735fa9f33559
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BossIde_0: -897908096885190414
+      Martelada_0: 2940221626128423301
+      Martelada_1: 3932756287762753511
+      Martelada_2: -2937318869140954020
+      Martelada_3: -4263106783449725753
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

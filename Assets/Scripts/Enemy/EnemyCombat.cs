@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyCombat : MonoBehaviour
 {
-    public float attackRange = 1.2f;
+    public float attackRange = 3f;
     public float attackCooldown = 1f;
     public int damage = 10;
 

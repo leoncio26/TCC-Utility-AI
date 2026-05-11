@@ -1,14 +1,15 @@
-using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 
 public class EnemyContext : MonoBehaviour
 {
     public Transform player;
     public PlayerController playerController;
-    public CapangaController capangaController;
     public BossController bossController;
     public Animator animator;
     public EnemyCombat combat;
+    public EnemyMovement movement;
+    public AnimatorController animatorController;
+
     public float attackRange = 1.5f;
     public float moveSpeed = 3f;
     public float lastLeapTime = 3f;
@@ -24,7 +25,6 @@ public class EnemyContext : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        capangaController = GetComponent<CapangaController>();
         bossController = GetComponent<BossController>();
         //animator = GetComponent<EnemyAnimator>();
         combat = GetComponent<EnemyCombat>();
