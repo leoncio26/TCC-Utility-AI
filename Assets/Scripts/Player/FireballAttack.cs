@@ -2,33 +2,66 @@ using UnityEngine;
 
 public class FireballAttack : MonoBehaviour
 {
-    public GameObject fireballPrefab;
+    public Fireball fireballPrefab;
     public Transform firePoint;
     public SpriteRenderer sr;
 
     private bool facingRight = true;
 
+    [SerializeField] private int maxFireballs = 3;
+    [SerializeField] private float fireballCooldown = 2f;
+
+    private int currentFireballs;
+    private float cooldownTimer;
+
+    void Start()
+    {
+        currentFireballs = maxFireballs;
+    }
+
     void Update()
     {
         HandleDirection();
 
-        if (Input.GetKeyDown(KeyCode.B))
+        HandleCooldown();
+
+        if (Input.GetKeyDown(KeyCode.B) && currentFireballs > 0)
         {
             Shoot();
         }
     }
 
+    void HandleCooldown()
+    {
+        if (currentFireballs > 0)
+            return;
+
+        cooldownTimer -= Time.deltaTime;
+
+        if (cooldownTimer <= 0f)
+        {
+            currentFireballs = maxFireballs;
+        }
+    }
+
     void Shoot()
     {
-        GameObject fireball = Instantiate(
+        Fireball fireball = Instantiate(
             fireballPrefab,
             firePoint.position,
             Quaternion.identity
-        );
+            );
 
         Vector2 dir = facingRight ? Vector2.right : Vector2.left;
 
-        fireball.GetComponent<Fireball>().SetDirection(dir);
+        fireball.SetDirection(dir);
+
+        currentFireballs--;
+
+        if (currentFireballs <= 0)
+        {
+            cooldownTimer = fireballCooldown;
+        }
     }
 
     void HandleDirection()
