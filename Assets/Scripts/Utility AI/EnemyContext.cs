@@ -9,12 +9,15 @@ public class EnemyContext : MonoBehaviour
     public EnemyCombat combat;
     public EnemyMovement movement;
     public AnimatorController animatorController;
+    public HealthBar bossHealthBar;
 
     public float attackRange = 1.5f;
     public float moveSpeed = 3f;
     public float lastLeapTime = 3f;
     public bool isLeaping;
     public bool executing = false;
+    public bool incomingProjectileDetected = false;
+    public bool isBlocking = false;
 
     [Header("Area Bounds")]
     public Transform leftLimit;

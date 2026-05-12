@@ -37,7 +37,7 @@ public class MeleeAttackAction : UtilityAction
         //context.movement.FaceDirection(dir);
 
         // animação
-        context.animatorController.PlayAttackMelee();
+        context.animatorController.Play("Martelada");
 
         // ataque lógico
         context.combat.Attack(

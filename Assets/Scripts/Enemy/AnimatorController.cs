@@ -4,10 +4,10 @@ public class AnimatorController : MonoBehaviour
 {
     [SerializeField]
     private Animator animator;
-    [SerializeField]
-    private string meleeTrigger;
+    //[SerializeField]
+    //private string meleeTrigger;
 
-    public void PlayAttackMelee()
+    public void Play(string animName)
     {
     //    RuntimeAnimatorController controller =
     //animator.runtimeAnimatorController;
@@ -17,6 +17,6 @@ public class AnimatorController : MonoBehaviour
     //        Debug.Log(clip.name);
     //    }
 
-        animator.Play(meleeTrigger);
+        animator.Play(animName);
     }
 }
