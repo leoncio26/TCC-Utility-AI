@@ -7,6 +7,7 @@ public class BossController : MonoBehaviour
     public Animator animator;
     public HealthBar healthBar;
     public SpriteRenderer sr;
+    public EnemyContext context;
 
     private float life = 100.0f;
     private float maxLife = 100.0f;
@@ -38,6 +39,12 @@ public class BossController : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        if (context.isBlocking)
+        {
+            //Debug.Log("Est� defendendo com escudo");
+            return;
+        }
+
         Debug.Log("Dano: " + life);
         life -= damage;
         life = Mathf.Max(life, 0.0f);

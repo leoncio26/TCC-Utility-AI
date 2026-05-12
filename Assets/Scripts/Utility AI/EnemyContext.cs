@@ -16,8 +16,12 @@ public class EnemyContext : MonoBehaviour
     public float lastLeapTime = 3f;
     public bool isLeaping;
     public bool executing = false;
+
+    [Header("Projetil")]
     public bool incomingProjectileDetected = false;
     public bool isBlocking = false;
+    public float projectilReactionTime = 0.0f;
+
 
     [Header("Area Bounds")]
     public Transform leftLimit;

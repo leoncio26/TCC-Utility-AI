@@ -6,7 +6,7 @@ public class DefesaEscudoAction : UtilityAction
 {
     public override float Score(EnemyContext context)
     {
-        if (context.isBlocking) return 0;
+        //if (context.isBlocking) return 0;
 
         if (context.incomingProjectileDetected) return 1;
 
@@ -15,17 +15,19 @@ public class DefesaEscudoAction : UtilityAction
 
     public override void Execute(EnemyContext context)
     {
-        if (context.isBlocking)
-            return;
+        //if (context.isBlocking)
+        //    return;
 
         context.StartCoroutine(ShieldRoutine(context));
     }
 
     public IEnumerator ShieldRoutine(EnemyContext context)
     {
-        context.isBlocking = true;
+        context.executing = true;
 
-        yield return new WaitForSeconds(.2f);
+        yield return new WaitForSeconds(context.projectilReactionTime);
+        
+        context.isBlocking = true;
 
         context.animator.SetBool("ShieldDefense", true);
 
@@ -47,6 +49,7 @@ public class DefesaEscudoAction : UtilityAction
         context.animator.SetBool("ShieldDefense", false);
 
         context.isBlocking = false;
+        context.executing = false;
 
     }
 }
