@@ -15,7 +15,9 @@ public class EnemyContext : MonoBehaviour
     public float moveSpeed = 3f;
     public float lastLeapTime = 3f;
     public bool isLeaping;
+
     public bool executing = false;
+    public float globalCooldown = 0.0f;
 
     [Header("Projetil")]
     public bool incomingProjectileDetected = false;

@@ -46,5 +46,7 @@ public class MeleeAttackAction : UtilityAction
             context.transform,
             context.player
         );
+
+        context.globalCooldown = 5.0f;
     }
 }
