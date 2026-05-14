@@ -9,16 +9,10 @@ public class EnemyMovement : MonoBehaviour
 
     public void Move(float direction)
     {
-        //rb.linearVelocity = new Vector2(
-        //    direction * speed,
-        //    rb.linearVelocity.y
-        //);
-
-        return;
-
         transform.position += new Vector3(
-            direction * speed,
-            transform.position.y
+            direction * speed * Time.deltaTime,
+            0,
+            0
         );
     }
 

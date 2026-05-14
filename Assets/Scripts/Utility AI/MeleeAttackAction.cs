@@ -14,6 +14,8 @@ public class MeleeAttackAction : UtilityAction
             context.transform.position.x - context.player.position.x
         );
 
+        //Debug.Log($"dist melee: {dist} | attackRange");
+
         if (dist > context.combat.attackRange)
             return 0f;
 

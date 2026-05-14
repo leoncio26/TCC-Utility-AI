@@ -887,8 +887,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 11400000, guid: 53c3d4d6fd2fba947a0938474baa1721, type: 2}
   - {fileID: 11400000, guid: ae126622b4e123d488a449aaf109d341, type: 2}
-  - {fileID: 11400000, guid: 6da7b0d542b0d2d4382eb07bf860ddbf, type: 2}
 --- !u!114 &985872885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -909,13 +909,14 @@ MonoBehaviour:
   movement: {fileID: 985872890}
   animatorController: {fileID: 985872889}
   bossHealthBar: {fileID: 0}
-  attackRange: 1.5
+  attackRange: 0.1
   moveSpeed: 3
   lastLeapTime: 3
   isLeaping: 0
   executing: 0
   incomingProjectileDetected: 0
   isBlocking: 0
+  projectilReactionTime: 0
   leftLimit: {fileID: 734412919}
   rightLimit: {fileID: 552693091}
   rb: {fileID: 0}
@@ -931,7 +932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b9b52d51b4299647a6add1b68aff115, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 3
+  attackRange: 1
   attackCooldown: 1
   damage: 10
 --- !u!114 &985872887
@@ -1347,6 +1348,7 @@ MonoBehaviour:
   executing: 0
   incomingProjectileDetected: 0
   isBlocking: 0
+  projectilReactionTime: 0
   leftLimit: {fileID: 0}
   rightLimit: {fileID: 0}
   rb: {fileID: 0}
@@ -2024,9 +2026,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1e19672290b774d8cc5dabc40d03e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireballPrefab: {fileID: 2742073105143486334, guid: ddb2da7651d632749b305dfbeebb8edf, type: 3}
+  fireballPrefab: {fileID: -2244577726348097765, guid: ddb2da7651d632749b305dfbeebb8edf, type: 3}
   firePoint: {fileID: 533115970}
   sr: {fileID: 1776521854}
+  maxFireballs: 3
+  fireballCooldown: 2
 --- !u!1 &1834630939
 GameObject:
   m_ObjectHideFlags: 0
