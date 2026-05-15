@@ -16,6 +16,8 @@ public class EnemyContext : MonoBehaviour
     public float lastLeapTime = 3f;
     public bool isLeaping;
 
+    public bool playerIsAttackingMelee = false;
+
     public bool executing = false;
     public float globalCooldown = 0.0f;
 

@@ -5,6 +5,8 @@ public class PlayerAttack : MonoBehaviour
     public BossController boss;
     [SerializeField]
     private Animator anim;
+    [SerializeField]
+    private EnemyContext enemyContext;
 
     void Update()
     {
@@ -16,6 +18,7 @@ public class PlayerAttack : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             anim.Play("Attack", -1);
+            enemyContext.playerIsAttackingMelee = true;
         }
     }
 
