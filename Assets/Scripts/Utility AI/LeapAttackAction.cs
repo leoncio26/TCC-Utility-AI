@@ -10,7 +10,7 @@ public class LeapAttackAction : UtilityAction
 
     public override float Score(EnemyContext context)
     {
-        if (context.isLeaping)
+        if (context.executing)
             return 0f;
 
         if (!context.combat.CanAttack())
@@ -62,7 +62,7 @@ public class LeapAttackAction : UtilityAction
 
     private IEnumerator DoLeap(EnemyContext context)
     {
-        context.isLeaping = true;
+        context.executing = true;
 
         yield return null; // espera 1 frame
 
@@ -93,11 +93,11 @@ public class LeapAttackAction : UtilityAction
             yield return null;
         }
 
-        context.transform.position = end;
+        context.transform.position = new Vector3(end.x, start.y, 0);
 
         context.combat.Attack(context.transform, context.player);
 
-        //context.bossController.Move(0);
-        context.isLeaping = false;
+        context.executing = false;
+        context.globalCooldown = 1.5f;
     }
 }

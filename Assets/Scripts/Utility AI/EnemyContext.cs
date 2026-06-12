@@ -14,7 +14,6 @@ public class EnemyContext : MonoBehaviour
     public float attackRange = 1.5f;
     public float moveSpeed = 3f;
     public float lastLeapTime = 3f;
-    public bool isLeaping;
 
     public bool playerIsAttackingMelee = false;
 

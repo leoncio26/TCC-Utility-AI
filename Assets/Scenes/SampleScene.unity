@@ -888,6 +888,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 11400000, guid: 6da7b0d542b0d2d4382eb07bf860ddbf, type: 2}
+  - {fileID: 11400000, guid: 6375a7c26bf469447a1a107fe1dd17cc, type: 2}
+  - {fileID: 11400000, guid: 0c63deb685562f640af60e637fc21710, type: 2}
+  - {fileID: 11400000, guid: 381c94419d10511499aa436bf2ad8007, type: 2}
+  - {fileID: 11400000, guid: 424cf064f35b3ee44a28df29f7eb987c, type: 2}
+  - {fileID: 11400000, guid: ae126622b4e123d488a449aaf109d341, type: 2}
+  - {fileID: 11400000, guid: 53c3d4d6fd2fba947a0938474baa1721, type: 2}
 --- !u!114 &985872885
 MonoBehaviour:
   m_ObjectHideFlags: 0
