@@ -34,7 +34,6 @@ public class AtaqueGiratorioAction : UtilityAction
 
         // Aplica curva
         float curved = scoreCurve.Evaluate(normalized);
-        //Debug.Log("curved: " + curved);
 
         // Peso final da utility
         return curved * weight;
@@ -43,7 +42,7 @@ public class AtaqueGiratorioAction : UtilityAction
 
     public override void Execute(EnemyContext context)
     {
-        //Debug.Log("Executa o Ataque Giratorio");
+        Debug.Log("Executa o Ataque Giratorio");
         context.StartCoroutine(SpinningAttackRoutine(context));
     }
 

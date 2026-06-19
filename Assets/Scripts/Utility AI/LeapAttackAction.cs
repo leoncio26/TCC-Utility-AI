@@ -44,6 +44,7 @@ public class LeapAttackAction : UtilityAction
 
     public override void Execute(EnemyContext context)
     {
+        Debug.Log("Executa Ataque de Salto na direção do Jogador");
         //context.bossController.Move(0);
 
         float dir = Mathf.Sign(

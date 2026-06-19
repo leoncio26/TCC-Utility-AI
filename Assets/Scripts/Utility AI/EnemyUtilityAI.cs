@@ -38,6 +38,9 @@ public class EnemyUtilityAI : MonoBehaviour
         }
 
         if (best != null)
+        {
             best.Execute(context);
+            Debug.Log("Score Best Action: " + bestScore);
+        }
     }
 }

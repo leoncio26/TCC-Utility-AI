@@ -9,8 +9,8 @@ public class EnemyContext : MonoBehaviour
     public EnemyCombat combat;
     public EnemyMovement movement;
     public AnimatorController animatorController;
-    public HealthBar bossHealthBar;
 
+    public float bossLifeNormalized;
     public float attackRange = 1.5f;
     public float moveSpeed = 3f;
     public float lastLeapTime = 3f;
@@ -29,6 +29,8 @@ public class EnemyContext : MonoBehaviour
     [Header("Area Bounds")]
     public Transform leftLimit;
     public Transform rightLimit;
+
+    public bool isTerremotoAtaque = false;
 
     [HideInInspector] public Rigidbody2D rb;
 

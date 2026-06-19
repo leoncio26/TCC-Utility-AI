@@ -18,7 +18,7 @@ public class RushPlayerAction : UtilityAction
 
     public override void Execute(EnemyContext context)
     {
-        Debug.Log("RushPlayerAction");
+        Debug.Log("Executa Ataque para Ir na Direção do Jogador");
         //float directionX = Mathf.Sign(context.player.position.x - context.transform.position.x);
 
         //// Mantém velocidade vertical atual (gravidade)

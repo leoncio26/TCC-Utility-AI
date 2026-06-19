@@ -36,6 +36,8 @@ public class AtaqueEsmagadorAction : UtilityAction
 
     public override void Execute(EnemyContext context)
     {
+        Debug.Log("Executa Ataque Esmagador");
+        
         context.executing = true;
         context.StartCoroutine(JumpRoutine(context));
     }

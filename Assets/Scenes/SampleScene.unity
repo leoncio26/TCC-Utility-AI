@@ -817,6 +817,7 @@ Transform:
   m_Children:
   - {fileID: 1834630940}
   - {fileID: 226166348}
+  - {fileID: 1611504388}
   m_Father: {fileID: 514003346}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &985872882
@@ -913,11 +914,10 @@ MonoBehaviour:
   combat: {fileID: 0}
   movement: {fileID: 985872890}
   animatorController: {fileID: 985872889}
-  bossHealthBar: {fileID: 0}
+  bossLifeNormalized: 0
   attackRange: 0.1
   moveSpeed: 3
   lastLeapTime: 3
-  isLeaping: 0
   playerIsAttackingMelee: 0
   executing: 0
   globalCooldown: 0
@@ -926,6 +926,7 @@ MonoBehaviour:
   projectilReactionTime: 0
   leftLimit: {fileID: 734412919}
   rightLimit: {fileID: 552693091}
+  isTerremotoAtaque: 0
   rb: {fileID: 0}
 --- !u!114 &985872886
 MonoBehaviour:
@@ -961,6 +962,8 @@ MonoBehaviour:
   context: {fileID: 985872885}
   playerAttacking: 0
   playerTransform: {fileID: 1776521853}
+  terremotoPrefab: {fileID: 8588188785136740549, guid: b1435b54687e90c47a22c31a19325ad5, type: 3}
+  spawnPoint: {fileID: 1611504388}
 --- !u!95 &985872888
 Animator:
   serializedVersion: 7
@@ -1347,11 +1350,10 @@ MonoBehaviour:
   combat: {fileID: 0}
   movement: {fileID: 0}
   animatorController: {fileID: 0}
-  bossHealthBar: {fileID: 0}
+  bossLifeNormalized: 0
   attackRange: 1.5
   moveSpeed: 3
   lastLeapTime: 3
-  isLeaping: 0
   playerIsAttackingMelee: 0
   executing: 0
   globalCooldown: 0
@@ -1360,6 +1362,7 @@ MonoBehaviour:
   projectilReactionTime: 0
   leftLimit: {fileID: 0}
   rightLimit: {fileID: 0}
+  isTerremotoAtaque: 0
   rb: {fileID: 0}
 --- !u!50 &1175683144
 Rigidbody2D:
@@ -1795,6 +1798,37 @@ Transform:
   m_Children:
   - {fileID: 1776521853}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1611504387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1611504388}
+  m_Layer: 0
+  m_Name: TerremotoSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1611504388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611504387}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.809, y: -0.674, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 985872881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1617101390
 GameObject:

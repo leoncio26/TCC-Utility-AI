@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
 
 [CreateAssetMenu(fileName = "DefesaEscudoAction", menuName = "Scriptable Objects/DefesaEscudoAction")]
 public class DefesaEscudoAction : UtilityAction
@@ -39,7 +38,7 @@ public class DefesaEscudoAction : UtilityAction
     {
         //if (context.isBlocking)
         //    return;
-
+        Debug.Log("Usa o Escudo");
         context.StartCoroutine(ShieldRoutine(context));
     }
 

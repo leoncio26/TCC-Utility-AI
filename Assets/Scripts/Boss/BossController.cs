@@ -19,6 +19,9 @@ public class BossController : MonoBehaviour
     [SerializeField]
     private Transform playerTransform;
 
+    [SerializeField] private GameObject terremotoPrefab;
+    [SerializeField] private Transform spawnPoint;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -41,13 +44,14 @@ public class BossController : MonoBehaviour
     {
         if (context.isBlocking)
         {
-            //Debug.Log("Est� defendendo com escudo");
+            //Debug.Log("Está defendendo com escudo");
             return;
         }
 
         Debug.Log("Dano: " + life);
         life -= damage;
         life = Mathf.Max(life, 0.0f);
+        context.bossLifeNormalized = life/maxLife;
 
         healthBar.UpdateHealthBar(maxLife, life);
     }
@@ -57,5 +61,20 @@ public class BossController : MonoBehaviour
         Vector3 scale = transform.localScale;
         scale.x = direction > 0 ? 1 : -1;
         transform.localScale = scale;
+    }
+
+    public void SpawnEarthquake()
+    {
+        if (!context.isTerremotoAtaque) return;
+
+        GameObject quake = Instantiate(
+            terremotoPrefab,
+            spawnPoint.position,
+            Quaternion.identity);
+
+        float direction = Mathf.Sign(playerTransform.position.x - transform.position.x);
+
+        quake.GetComponent<TerremotoAtaque>()
+             .Initialize(direction > 0 ? 1 : -1);
     }
 }

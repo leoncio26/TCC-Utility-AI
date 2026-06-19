@@ -34,7 +34,6 @@ public class AtaqueGiratorioMultiplo : UtilityAction
 
         // Aplica curva
         float curved = scoreCurve.Evaluate(normalized);
-        //Debug.Log("curved: " + curved);
 
         // Peso final da utility
         return curved * weight;
@@ -42,6 +41,8 @@ public class AtaqueGiratorioMultiplo : UtilityAction
 
     public override void Execute(EnemyContext context)
     {
+        Debug.Log("Executa o Ataque Giratorio Multiplo");
+
         context.executing = true;
 
         context.StartCoroutine(SpinningAttackRoutine(context));
@@ -49,7 +50,6 @@ public class AtaqueGiratorioMultiplo : UtilityAction
 
     private IEnumerator SpinningAttackRoutine(EnemyContext context)
     {
-        Debug.Log("Executa o Ataque Giratorio Multiplo");
         var transform = context.transform;
         var animator = context.animator;
         int numAttacks = 3;
@@ -87,14 +87,14 @@ public class AtaqueGiratorioMultiplo : UtilityAction
             {
                 attackDirection *= -1;
                 numAttacks--;
-                Debug.Log("NumGiro: " + numAttacks);
+                //Debug.Log("NumGiro: " + numAttacks);
                 yield return new WaitForSeconds(0.15f);
             }
 
             yield return null;
         }
 
-        Debug.Log("Finalizou giro multiplo");
+        //Debug.Log("Finalizou giro multiplo");
 
         transform.localRotation = Quaternion.identity;
 
