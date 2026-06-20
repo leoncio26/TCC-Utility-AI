@@ -36,7 +36,8 @@ public class AtaqueGiratorioMultiplo : UtilityAction
         float curved = scoreCurve.Evaluate(normalized);
 
         // Peso final da utility
-        return curved * weight;
+        //Debug.Log("Ataque Giratorio Multiplo: " + curved * context.bossLifeNormalized);
+        return curved * context.bossLifeNormalized;
     }
 
     public override void Execute(EnemyContext context)

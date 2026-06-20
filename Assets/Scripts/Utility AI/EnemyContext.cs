@@ -10,7 +10,7 @@ public class EnemyContext : MonoBehaviour
     public EnemyMovement movement;
     public AnimatorController animatorController;
 
-    public float bossLifeNormalized;
+    public float bossLifeNormalized = 1.0f;
     public float attackRange = 1.5f;
     public float moveSpeed = 3f;
     public float lastLeapTime = 3f;

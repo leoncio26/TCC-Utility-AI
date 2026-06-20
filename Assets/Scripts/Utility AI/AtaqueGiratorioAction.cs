@@ -36,7 +36,9 @@ public class AtaqueGiratorioAction : UtilityAction
         float curved = scoreCurve.Evaluate(normalized);
 
         // Peso final da utility
-        return curved * weight;
+        //Debug.Log($"Curved: {curved} | Life: {context.bossLifeNormalized}");
+        //Debug.Log("Ataque Giratorio: " + curved * context.bossLifeNormalized);
+        return curved * context.bossLifeNormalized;
 
     }
 

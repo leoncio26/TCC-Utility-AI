@@ -76,5 +76,7 @@ public class BossController : MonoBehaviour
 
         quake.GetComponent<TerremotoAtaque>()
              .Initialize(direction > 0 ? 1 : -1);
+
+        context.isTerremotoAtaque = false;
     }
 }

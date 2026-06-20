@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a235c2388f886fa4896ee9ddbfaedc3b, type: 3}
-  m_Name: AtaqueGiratorioMultiploAction
+  m_Script: {fileID: 11500000, guid: b7bc7ba53eeb91a489b780b2e4939438, type: 3}
+  m_Name: TerremotoAtaqueAction
   m_EditorClassIdentifier: 
   weight: 1
   minDistance: 8
@@ -39,8 +39,3 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  spinDuration: 1.5
-  spinSpeed: 12
-  rotationSpeed: 1080
-  windupTime: 0.4
-  recoveryTime: 3
