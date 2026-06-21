@@ -97,6 +97,7 @@ public class LeapAttackAction : UtilityAction
         context.transform.position = new Vector3(end.x, start.y, 0);
 
         context.combat.Attack(context.transform, context.player);
+        context.animator.Play("BossImpactGround");
 
         context.executing = false;
         context.globalCooldown = 1.5f;

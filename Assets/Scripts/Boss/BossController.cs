@@ -1,28 +1,21 @@
-using System.Collections;
 using UnityEngine;
 
 public class BossController : MonoBehaviour
 {
-    public float speed;
-    public Animator animator;
-    public HealthBar healthBar;
-    public SpriteRenderer sr;
-    public EnemyContext context;
-
-    private float life = 100.0f;
-    private float maxLife = 100.0f;
-
-    public bool playerAttacking;
-
-    private Rigidbody2D rb;
-
-    [SerializeField]
-    private Transform playerTransform;
-
+    [SerializeField] private float speed;
+    [SerializeField] private Animator animator;
+    [SerializeField] private SpriteRenderer sr;
+    [SerializeField] private EnemyContext context;
+    [SerializeField] private HealthBar healthBar;
+    [SerializeField] private bool playerAttacking;
+    [SerializeField] private Transform playerTransform;
     [SerializeField] private GameObject terremotoPrefab;
     [SerializeField] private Transform spawnPoint;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private float life = 100.0f;
+    private float maxLife = 100.0f;
+    private Rigidbody2D rb;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

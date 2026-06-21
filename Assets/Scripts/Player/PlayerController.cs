@@ -1,20 +1,22 @@
 using System;
-using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private HealthBar healthBar;
+    [SerializeField] private float speed;
+    [SerializeField] private int addJumps;
+    [SerializeField] private bool isGrounded;
+    [SerializeField] private float jumpForce;
+
     private Rigidbody2D rb;
     private Animator anim;
     private CapsuleCollider2D colliderPlayer;
     private float moveX;
 
-    public float speed;
-    public int addJumps;
-    //public int life;
-    public bool isGrounded;
-    public float jumpForce;
-    //public TextMeshProUGUI textLife;
+    private float life = 100.0f;
+    private float maxLife = 100.0f;
 
     void Start()
     {
@@ -104,5 +106,20 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("IsRun", false);
         }
+    }
+
+    public void TakeDamage(float damage)
+    {
+        life -= damage;
+        life = Mathf.Max(0, life);
+
+        healthBar.UpdateHealthBar(maxLife, life);
+
+        if (life == 0) Die();
+    }
+
+    private void Die()
+    {
+        SceneManager.LoadScene("GameOver");
     }
 }

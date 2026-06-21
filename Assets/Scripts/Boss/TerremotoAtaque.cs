@@ -24,4 +24,13 @@ public class TerremotoAtaque : MonoBehaviour
     {
         transform.Translate(Vector2.right * direction * speed * Time.deltaTime);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Debug.Log("Colidiu com o Terremoto");
+            collision.GetComponent<PlayerController>().TakeDamage(15);
+        }
+    }
 }

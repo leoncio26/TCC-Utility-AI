@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3827993779448514025}
   - component: {fileID: 3169533796743637113}
   - component: {fileID: 3534046448719064832}
+  - component: {fileID: -7587176377914110096}
   m_Layer: 0
   m_Name: Terremoto
   m_TagString: Untagged
@@ -125,3 +126,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   lifeTime: 3
+--- !u!58 &-7587176377914110096
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8588188785136740549}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.0012784936, y: -0.057531744}
+  m_Radius: 0.14849359
