@@ -1,3 +1,4 @@
+using UnityEditor.Playables;
 using UnityEngine;
 
 public class BossController : MonoBehaviour
@@ -11,6 +12,7 @@ public class BossController : MonoBehaviour
     [SerializeField] private Transform playerTransform;
     [SerializeField] private GameObject terremotoPrefab;
     [SerializeField] private Transform spawnPoint;
+    [SerializeField] private EnemyUtilityAI utilityAI;
 
     private float life = 100.0f;
     private float maxLife = 100.0f;
@@ -35,7 +37,7 @@ public class BossController : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        if (context.isBlocking)
+        if (context.isBlocking || context.isAttackNoDamage)
         {
             //Debug.Log("Está defendendo com escudo");
             return;
@@ -47,6 +49,13 @@ public class BossController : MonoBehaviour
         context.bossLifeNormalized = life/maxLife;
 
         healthBar.UpdateHealthBar(maxLife, life);
+
+        if (life == 0.0f)
+        {
+            utilityAI.enabled = false;
+            enabled = false;
+            animator.SetTrigger("Die");
+        }
     }
 
     public void Flip(float direction)
@@ -71,5 +80,10 @@ public class BossController : MonoBehaviour
              .Initialize(direction > 0 ? 1 : -1);
 
         context.isTerremotoAtaque = false;
+    }
+
+    public void OnDeathAnimationFinished()
+    {
+        animator.enabled = false;
     }
 }

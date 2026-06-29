@@ -25,9 +25,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showborder="false"
-     inkscape:zoom="1"
-     inkscape:cx="-13.499999"
-     inkscape:cy="-736.49997"
+     inkscape:zoom="0.706875"
+     inkscape:cx="152.78515"
+     inkscape:cy="-812.7321"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -1123,6 +1123,41 @@
        inkscape:randomized="0"
        d="m 89.098437,45.971355 -2.836809,0.802982 -2.354366,-1.774605 0.723002,-2.858239 2.714036,-1.151639 2.113807,2.055258 z"
        transform="matrix(0.09663129,0,0,0.09663129,83.052387,-6.9249554)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+       id="path65-1"
+       inkscape:flatsided="false"
+       sodipodi:sides="7"
+       sodipodi:cx="86.783333"
+       sodipodi:cy="43.98698"
+       sodipodi:r1="2.1755154"
+       sodipodi:r2="2.1615691"
+       sodipodi:arg1="0.42939186"
+       sodipodi:arg2="1.1581203"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 88.761353,44.892687 -1.111097,1.074401 -0.341757,0.131069 -1.532758,-0.198812 -0.315557,-0.185476 -0.800222,-1.322316 -0.05173,-0.362355 0.534898,-1.450089 0.251044,-0.266372 1.467229,-0.485916 0.364782,0.03019 1.294706,0.844162 0.203832,0.304024 0.147243,1.538568 z"
+       transform="matrix(0.18315593,0,0,0.18315593,6.6686211,-246.10445)"
+       inkscape:export-filename="..\Assets\Images\Enemies\Boss\BossDie.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       sodipodi:type="star"
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+       id="path69-1"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="86.783333"
+       sodipodi:cy="43.98698"
+       sodipodi:r1="3.0491722"
+       sodipodi:r2="2.8357594"
+       sodipodi:arg1="0.70862627"
+       sodipodi:arg2="1.7558238"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 89.098437,45.971355 -2.836809,0.802982 -2.354366,-1.774605 0.723002,-2.858239 2.714036,-1.151639 2.113807,2.055258 z"
+       transform="matrix(0.0416058,0,0,0.0416058,21.845768,-240.48337)" />
     <path
        sodipodi:type="star"
        style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
@@ -5501,5 +5536,804 @@
        inkscape:randomized="0"
        d="m 88.761353,44.892687 -1.111097,1.074401 -0.341757,0.131069 -1.532758,-0.198812 -0.315557,-0.185476 -0.800222,-1.322316 -0.05173,-0.362355 0.534898,-1.450089 0.251044,-0.266372 1.467229,-0.485916 0.364782,0.03019 1.294706,0.844162 0.203832,0.304024 0.147243,1.538568 z"
        transform="matrix(0.09358843,0.22675441,-0.22675441,0.09358843,-34.421264,-203.24151)" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="-48.126263"
+       y="-283.70438"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="fill:#f9f9f9;stroke-width:0.264583"
+         x="-48.126263"
+         y="-283.70438">Morte</tspan></text>
+    <g
+       id="g267"
+       inkscape:export-filename="..\Assets\Images\Enemies\Boss\BossImpactGround.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="translate(-34.126884,-237.39493)">
+      <g
+         id="g260"
+         transform="translate(37.020171,-1.1926903)"
+         style="mix-blend-mode:normal">
+        <g
+           id="g245"
+           inkscape:transform-center-x="-6.3110537"
+           transform="rotate(-69.397708,-76.832613,14.711285)"
+           inkscape:transform-center-y="-11.514007"
+           inkscape:export-filename="..\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96">
+          <g
+             id="g244"
+             inkscape:transform-center-x="-11.786586"
+             transform="translate(-14.68646,25.069882)">
+            <rect
+               style="fill:#784421;stroke-width:0.462522;stroke-linecap:round;stroke-linejoin:round"
+               id="rect188"
+               width="2.0181432"
+               height="3.2916517"
+               x="-8.293951"
+               y="7.8112965"
+               ry="1.4251229"
+               rx="0.54824406" />
+            <rect
+               style="fill:#854b25;fill-opacity:1;stroke-width:0.164415;stroke-linecap:round;stroke-linejoin:round"
+               id="rect191"
+               width="1.730419"
+               height="0.48500863"
+               x="-8.293951"
+               y="7.8112965"
+               ry="0.23940372"
+               rx="0.29502997" />
+            <rect
+               style="fill:#808080;stroke-width:1.30594;stroke-linecap:round;stroke-linejoin:round"
+               id="rect193"
+               width="5.2786851"
+               height="12.756824"
+               x="-12.4445"
+               y="2.9104178"
+               ry="0.51536369"
+               rx="0.51536369" />
+            <rect
+               style="fill:#666666;stroke-width:0.602503;stroke-linecap:round;stroke-linejoin:round"
+               id="rect194"
+               width="1.1235651"
+               height="12.756824"
+               x="-12.4445"
+               y="2.9104178"
+               ry="0.51536369"
+               rx="0.51536369" />
+            <rect
+               style="fill:#4a342a;fill-opacity:1;stroke-width:0.180142;stroke-linecap:round;stroke-linejoin:round"
+               id="rect221"
+               width="0.28989142"
+               height="3.4760976"
+               x="-12.041439"
+               y="7.7261677"
+               ry="0.16105115"
+               rx="0.16105115" />
+            <rect
+               style="fill:#784421;stroke-width:0.3878;stroke-linecap:round;stroke-linejoin:round"
+               id="rect232"
+               width="1.4187409"
+               height="3.2916517"
+               x="-13.216301"
+               y="7.8112965"
+               ry="0.79247504"
+               rx="0.16105114" />
+            <rect
+               style="fill:#784421;stroke-width:1.375;stroke-linecap:round;stroke-linejoin:round"
+               id="rect233"
+               width="17.835772"
+               height="3.2916517"
+               x="-29.633331"
+               y="7.8112965"
+               ry="1.6458259"
+               rx="0.61499047" />
+            <rect
+               style="fill:#854b25;fill-opacity:1;stroke-width:0.430534;stroke-linecap:round;stroke-linejoin:round"
+               id="rect244"
+               width="17.291039"
+               height="0.37327695"
+               x="-29.155827"
+               y="7.8127575"
+               ry="0.15813674"
+               rx="0.10843211" />
+          </g>
+        </g>
+        <rect
+           style="fill:#aa0000;stroke-width:0.0965609;stroke-linecap:round;stroke-linejoin:round"
+           id="rect245"
+           width="10.914062"
+           height="26.458334"
+           x="-54.030464"
+           y="-25.192963"
+           rx="0"
+           ry="0"
+           inkscape:export-filename="..\..\Faculdade\TCC\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <ellipse
+           style="fill:#f9f9f9;stroke-width:0.0707107;stroke-linecap:round;stroke-linejoin:round"
+           id="ellipse259"
+           cx="-44.780594"
+           cy="-18.809902"
+           rx="0.79374999"
+           ry="1.7528646" />
+        <rect
+           style="fill:#aa0000;stroke-width:0.0100539;stroke-linecap:round;stroke-linejoin:round"
+           id="rect341"
+           width="3.5718741"
+           height="0.8764326"
+           x="-46.688278"
+           y="-20.728119"
+           rx="0"
+           ry="0"
+           inkscape:export-filename="..\..\Faculdade\TCC\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <ellipse
+           style="fill:#1a1a1a;stroke-width:0.0360224;stroke-linecap:round;stroke-linejoin:round"
+           id="ellipse260"
+           cx="-44.780594"
+           cy="-18.809902"
+           rx="0.40436321"
+           ry="0.89296877" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.535709;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m -45.601327,-15.136305 2.125565,-0.0051"
+           id="path260" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m -45.382295,-20.282067 -2.068149,-1.341166"
+           id="path258" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m -44.279248,-20.418159 1.88465,-1.588728"
+           id="path259" />
+      </g>
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.120577;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0"
+         id="rect267"
+         width="52.879425"
+         height="36.619427"
+         x="-31.292837"
+         y="-36.584507" />
+    </g>
+    <g
+       id="g301"
+       inkscape:export-filename="..\Assets\Images\Enemies\Boss\BossImpactGround.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="translate(18.810477,-237.39493)">
+      <g
+         id="g300"
+         transform="translate(37.020171,-1.1926903)"
+         style="mix-blend-mode:normal">
+        <g
+           id="g298"
+           inkscape:transform-center-x="-11.576538"
+           transform="rotate(18.318319,94.118847,-17.12274)"
+           inkscape:transform-center-y="5.9136663"
+           inkscape:export-filename="..\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96">
+          <g
+             id="g297"
+             inkscape:transform-center-x="-11.786586"
+             transform="translate(-14.68646,25.069882)">
+            <rect
+               style="fill:#784421;stroke-width:0.462522;stroke-linecap:round;stroke-linejoin:round"
+               id="rect287"
+               width="2.0181432"
+               height="3.2916517"
+               x="-8.293951"
+               y="7.8112965"
+               ry="1.4251229"
+               rx="0.54824406" />
+            <rect
+               style="fill:#854b25;fill-opacity:1;stroke-width:0.164415;stroke-linecap:round;stroke-linejoin:round"
+               id="rect288"
+               width="1.730419"
+               height="0.48500863"
+               x="-8.293951"
+               y="7.8112965"
+               ry="0.23940372"
+               rx="0.29502997" />
+            <rect
+               style="fill:#808080;stroke-width:1.30594;stroke-linecap:round;stroke-linejoin:round"
+               id="rect291"
+               width="5.2786851"
+               height="12.756824"
+               x="-12.4445"
+               y="2.9104178"
+               ry="0.51536369"
+               rx="0.51536369" />
+            <rect
+               style="fill:#666666;stroke-width:0.602503;stroke-linecap:round;stroke-linejoin:round"
+               id="rect292"
+               width="1.1235651"
+               height="12.756824"
+               x="-12.4445"
+               y="2.9104178"
+               ry="0.51536369"
+               rx="0.51536369" />
+            <rect
+               style="fill:#4a342a;fill-opacity:1;stroke-width:0.180142;stroke-linecap:round;stroke-linejoin:round"
+               id="rect294"
+               width="0.28989142"
+               height="3.4760976"
+               x="-12.041439"
+               y="7.7261677"
+               ry="0.16105115"
+               rx="0.16105115" />
+            <rect
+               style="fill:#784421;stroke-width:0.3878;stroke-linecap:round;stroke-linejoin:round"
+               id="rect295"
+               width="1.4187409"
+               height="3.2916517"
+               x="-13.216301"
+               y="7.8112965"
+               ry="0.79247504"
+               rx="0.16105114" />
+            <rect
+               style="fill:#784421;stroke-width:1.375;stroke-linecap:round;stroke-linejoin:round"
+               id="rect296"
+               width="17.835772"
+               height="3.2916517"
+               x="-29.633331"
+               y="7.8112965"
+               ry="1.6458259"
+               rx="0.61499047" />
+            <rect
+               style="fill:#854b25;fill-opacity:1;stroke-width:0.430534;stroke-linecap:round;stroke-linejoin:round"
+               id="rect297"
+               width="17.291039"
+               height="0.37327695"
+               x="-29.155827"
+               y="7.8127575"
+               ry="0.15813674"
+               rx="0.10843211" />
+          </g>
+        </g>
+        <rect
+           style="fill:#aa0000;stroke-width:0.0965609;stroke-linecap:round;stroke-linejoin:round"
+           id="rect298"
+           width="10.914062"
+           height="26.458334"
+           x="-54.030464"
+           y="-25.192963"
+           rx="0"
+           ry="0"
+           inkscape:export-filename="..\..\Faculdade\TCC\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <ellipse
+           style="fill:#f9f9f9;stroke-width:0.0707107;stroke-linecap:round;stroke-linejoin:round"
+           id="ellipse299"
+           cx="-44.780594"
+           cy="-18.809902"
+           rx="0.79374999"
+           ry="1.7528646" />
+        <ellipse
+           style="fill:#1a1a1a;stroke-width:0.0360224;stroke-linecap:round;stroke-linejoin:round"
+           id="ellipse300"
+           cx="-44.780594"
+           cy="-18.809902"
+           rx="0.40436321"
+           ry="0.89296877" />
+        <rect
+           style="fill:#aa0000;fill-opacity:1;stroke-width:0.170054;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+           id="rect301"
+           width="2.058645"
+           height="1.826436"
+           x="-46.406223"
+           y="-23.572704"
+           transform="matrix(0.99817296,-0.06042132,-0.01882571,0.99982278,0,0)" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.460771;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m -45.319217,-15.136287 1.561345,-0.0051"
+           id="path300" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m -45.216268,-20.672028 -2.400203,-0.561244"
+           id="path298" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m -44.511385,-20.838854 2.348924,-0.747338"
+           id="path299" />
+      </g>
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.120577;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0"
+         id="rect300"
+         width="52.879425"
+         height="36.619427"
+         x="-31.292837"
+         y="-36.584507" />
+    </g>
+    <g
+       id="g326"
+       inkscape:export-filename="..\Assets\Images\Enemies\Boss\BossImpactGround.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="translate(124.58826,-237.39493)">
+      <g
+         id="g325"
+         transform="translate(37.020171,-1.3911278)"
+         style="mix-blend-mode:normal">
+        <g
+           id="g322"
+           inkscape:transform-center-x="-2.5366339"
+           transform="rotate(61.909847,4.5754733,10.730562)"
+           inkscape:transform-center-y="-11.346267"
+           inkscape:export-filename="..\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96">
+          <g
+             id="g321"
+             inkscape:transform-center-x="-11.786586"
+             transform="translate(-14.68646,25.069882)">
+            <rect
+               style="fill:#784421;stroke-width:0.462522;stroke-linecap:round;stroke-linejoin:round"
+               id="rect314"
+               width="2.0181432"
+               height="3.2916517"
+               x="-8.293951"
+               y="7.8112965"
+               ry="1.4251229"
+               rx="0.54824406" />
+            <rect
+               style="fill:#854b25;fill-opacity:1;stroke-width:0.164415;stroke-linecap:round;stroke-linejoin:round"
+               id="rect315"
+               width="1.730419"
+               height="0.48500863"
+               x="-8.293951"
+               y="7.8112965"
+               ry="0.23940372"
+               rx="0.29502997" />
+            <rect
+               style="fill:#808080;stroke-width:1.30594;stroke-linecap:round;stroke-linejoin:round"
+               id="rect316"
+               width="5.2786851"
+               height="12.756824"
+               x="-12.4445"
+               y="2.9104178"
+               ry="0.51536369"
+               rx="0.51536369" />
+            <rect
+               style="fill:#666666;stroke-width:0.602503;stroke-linecap:round;stroke-linejoin:round"
+               id="rect317"
+               width="1.1235651"
+               height="12.756824"
+               x="-12.4445"
+               y="2.9104178"
+               ry="0.51536369"
+               rx="0.51536369" />
+            <rect
+               style="fill:#4a342a;fill-opacity:1;stroke-width:0.180142;stroke-linecap:round;stroke-linejoin:round"
+               id="rect318"
+               width="0.28989142"
+               height="3.4760976"
+               x="-12.041439"
+               y="7.7261677"
+               ry="0.16105115"
+               rx="0.16105115" />
+            <rect
+               style="fill:#784421;stroke-width:0.3878;stroke-linecap:round;stroke-linejoin:round"
+               id="rect319"
+               width="1.4187409"
+               height="3.2916517"
+               x="-13.216301"
+               y="7.8112965"
+               ry="0.79247504"
+               rx="0.16105114" />
+            <rect
+               style="fill:#784421;stroke-width:1.375;stroke-linecap:round;stroke-linejoin:round"
+               id="rect320"
+               width="17.835772"
+               height="3.2916517"
+               x="-29.633331"
+               y="7.8112965"
+               ry="1.6458259"
+               rx="0.61499047" />
+            <rect
+               style="fill:#854b25;fill-opacity:1;stroke-width:0.430534;stroke-linecap:round;stroke-linejoin:round"
+               id="rect321"
+               width="17.291039"
+               height="0.37327695"
+               x="-29.155827"
+               y="7.8127575"
+               ry="0.15813674"
+               rx="0.10843211" />
+          </g>
+        </g>
+        <g
+           id="g327"
+           inkscape:transform-center-x="-13.325752"
+           inkscape:transform-center-y="-4.9328208"
+           transform="rotate(90.320767,-43.099227,1.3315173)">
+          <rect
+             style="fill:#aa0000;stroke-width:0.0965609;stroke-linecap:round;stroke-linejoin:round"
+             id="rect322"
+             width="10.914062"
+             height="26.458334"
+             x="-54.030464"
+             y="-25.192963"
+             rx="0"
+             ry="0"
+             inkscape:export-filename="..\..\Faculdade\TCC\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <ellipse
+             style="fill:#f9f9f9;stroke-width:0.0707107;stroke-linecap:round;stroke-linejoin:round"
+             id="ellipse322"
+             cx="-44.780594"
+             cy="-18.809902"
+             rx="0.79374999"
+             ry="1.7528646" />
+          <ellipse
+             style="fill:#1a1a1a;stroke-width:0.0360224;stroke-linecap:round;stroke-linejoin:round"
+             id="ellipse323"
+             cx="-44.780594"
+             cy="-18.809902"
+             rx="0.40436321"
+             ry="0.89296877" />
+          <rect
+             style="fill:#aa0000;fill-opacity:1;stroke-width:0.254567;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+             id="rect323"
+             width="2.0708792"
+             height="4.0687437"
+             x="-46.394905"
+             y="-26.519043"
+             transform="matrix(0.99190121,-0.1270118,-0.00536503,0.99998561,0,0)" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.270595;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m -44.802312,-15.139219 0.527535,7.64e-4"
+             id="path323" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m -45.407382,-21.660419 -2.017975,1.415538"
+             id="path324" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.420856;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m -44.734794,-21.63327 1.538207,0.708216"
+             id="path325" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m -44.120141,-19.285563 -1.520171,1.940376"
+             id="path327" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m -45.604355,-19.277253 1.541801,1.923234"
+             id="path328" />
+        </g>
+      </g>
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.120576;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0"
+         id="rect325"
+         width="52.879425"
+         height="36.619427"
+         x="-31.292837"
+         y="-36.584507" />
+    </g>
+    <g
+       id="g340"
+       inkscape:export-filename="..\Assets\Images\Enemies\Boss\BossImpactGround.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="translate(71.700982,-237.39493)">
+      <g
+         id="g339"
+         transform="translate(37.020171,-1.1926903)"
+         style="mix-blend-mode:normal">
+        <g
+           id="g336"
+           inkscape:transform-center-x="-11.576538"
+           transform="rotate(18.318319,94.118847,-17.12274)"
+           inkscape:transform-center-y="5.9136663"
+           inkscape:export-filename="..\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96">
+          <g
+             id="g335"
+             inkscape:transform-center-x="-11.786586"
+             transform="translate(-14.68646,25.069882)">
+            <rect
+               style="fill:#784421;stroke-width:0.462522;stroke-linecap:round;stroke-linejoin:round"
+               id="rect328"
+               width="2.0181432"
+               height="3.2916517"
+               x="-8.293951"
+               y="7.8112965"
+               ry="1.4251229"
+               rx="0.54824406" />
+            <rect
+               style="fill:#854b25;fill-opacity:1;stroke-width:0.164415;stroke-linecap:round;stroke-linejoin:round"
+               id="rect329"
+               width="1.730419"
+               height="0.48500863"
+               x="-8.293951"
+               y="7.8112965"
+               ry="0.23940372"
+               rx="0.29502997" />
+            <rect
+               style="fill:#808080;stroke-width:1.30594;stroke-linecap:round;stroke-linejoin:round"
+               id="rect330"
+               width="5.2786851"
+               height="12.756824"
+               x="-12.4445"
+               y="2.9104178"
+               ry="0.51536369"
+               rx="0.51536369" />
+            <rect
+               style="fill:#666666;stroke-width:0.602503;stroke-linecap:round;stroke-linejoin:round"
+               id="rect331"
+               width="1.1235651"
+               height="12.756824"
+               x="-12.4445"
+               y="2.9104178"
+               ry="0.51536369"
+               rx="0.51536369" />
+            <rect
+               style="fill:#4a342a;fill-opacity:1;stroke-width:0.180142;stroke-linecap:round;stroke-linejoin:round"
+               id="rect332"
+               width="0.28989142"
+               height="3.4760976"
+               x="-12.041439"
+               y="7.7261677"
+               ry="0.16105115"
+               rx="0.16105115" />
+            <rect
+               style="fill:#784421;stroke-width:0.3878;stroke-linecap:round;stroke-linejoin:round"
+               id="rect333"
+               width="1.4187409"
+               height="3.2916517"
+               x="-13.216301"
+               y="7.8112965"
+               ry="0.79247504"
+               rx="0.16105114" />
+            <rect
+               style="fill:#784421;stroke-width:1.375;stroke-linecap:round;stroke-linejoin:round"
+               id="rect334"
+               width="17.835772"
+               height="3.2916517"
+               x="-29.633331"
+               y="7.8112965"
+               ry="1.6458259"
+               rx="0.61499047" />
+            <rect
+               style="fill:#854b25;fill-opacity:1;stroke-width:0.430534;stroke-linecap:round;stroke-linejoin:round"
+               id="rect335"
+               width="17.291039"
+               height="0.37327695"
+               x="-29.155827"
+               y="7.8127575"
+               ry="0.15813674"
+               rx="0.10843211" />
+          </g>
+        </g>
+        <g
+           id="g341"
+           inkscape:transform-center-x="-4.4152613"
+           inkscape:transform-center-y="-13.598191"
+           transform="rotate(40.315836,-43.141987,1.2613593)">
+          <rect
+             style="fill:#aa0000;stroke-width:0.0965609;stroke-linecap:round;stroke-linejoin:round"
+             id="rect336"
+             width="10.914062"
+             height="26.458334"
+             x="-54.030464"
+             y="-25.192963"
+             rx="0"
+             ry="0"
+             inkscape:export-filename="..\..\Faculdade\TCC\TCC - Utility AI\Assets\Images\Enemies\Boss\BossIde.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96" />
+          <ellipse
+             style="fill:#f9f9f9;stroke-width:0.0707107;stroke-linecap:round;stroke-linejoin:round"
+             id="ellipse336"
+             cx="-44.780594"
+             cy="-18.809902"
+             rx="0.79374999"
+             ry="1.7528646" />
+          <ellipse
+             style="fill:#1a1a1a;stroke-width:0.0360224;stroke-linecap:round;stroke-linejoin:round"
+             id="ellipse337"
+             cx="-44.780594"
+             cy="-18.809902"
+             rx="0.40436321"
+             ry="0.89296877" />
+          <rect
+             style="fill:#aa0000;fill-opacity:1;stroke-width:0.240774;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+             id="rect337"
+             width="2.9193511"
+             height="2.581928"
+             x="-46.995716"
+             y="-23.792498"
+             transform="matrix(0.997697,-0.0678284,-0.02651977,0.99964829,0,0)" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.460771;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m -45.319217,-15.136287 1.561345,-0.0051"
+             id="path337" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m -45.21202,-21.214439 -2.408699,0.523578"
+             id="path338" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.478887;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+             d="m -44.546675,-21.448087 2.419504,0.471128"
+             id="path339" />
+        </g>
+      </g>
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.120577;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0"
+         id="rect339"
+         width="52.879425"
+         height="36.619427"
+         x="-31.292837"
+         y="-36.584507" />
+    </g>
+    <path
+       sodipodi:type="star"
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+       id="path341"
+       inkscape:flatsided="false"
+       sodipodi:sides="7"
+       sodipodi:cx="86.783333"
+       sodipodi:cy="43.98698"
+       sodipodi:r1="2.1755154"
+       sodipodi:r2="2.1615691"
+       sodipodi:arg1="0.42939186"
+       sodipodi:arg2="1.1581203"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 88.761353,44.892687 -1.111097,1.074401 -0.341757,0.131069 -1.532758,-0.198812 -0.315557,-0.185476 -0.800222,-1.322316 -0.05173,-0.362355 0.534898,-1.450089 0.251044,-0.266372 1.467229,-0.485916 0.364782,0.03019 1.294706,0.844162 0.203832,0.304024 0.147243,1.538568 z"
+       transform="matrix(0.13598868,0,0,0.13598868,12.303598,-243.79419)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+       id="path342"
+       inkscape:flatsided="false"
+       sodipodi:sides="7"
+       sodipodi:cx="86.783333"
+       sodipodi:cy="43.98698"
+       sodipodi:r1="2.1755154"
+       sodipodi:r2="2.1615691"
+       sodipodi:arg1="0.42939186"
+       sodipodi:arg2="1.1581203"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 88.761353,44.892687 -1.111097,1.074401 -0.341757,0.131069 -1.532758,-0.198812 -0.315557,-0.185476 -0.800222,-1.322316 -0.05173,-0.362355 0.534898,-1.450089 0.251044,-0.266372 1.467229,-0.485916 0.364782,0.03019 1.294706,0.844162 0.203832,0.304024 0.147243,1.538568 z"
+       transform="matrix(0.08747628,0,0,0.08747628,16.108631,-243.34647)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+       id="path343"
+       inkscape:flatsided="false"
+       sodipodi:sides="7"
+       sodipodi:cx="86.783333"
+       sodipodi:cy="43.98698"
+       sodipodi:r1="2.1755154"
+       sodipodi:r2="2.1615691"
+       sodipodi:arg1="0.42939186"
+       sodipodi:arg2="1.1581203"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 88.761353,44.892687 -1.111097,1.074401 -0.341757,0.131069 -1.532758,-0.198812 -0.315557,-0.185476 -0.800222,-1.322316 -0.05173,-0.362355 0.534898,-1.450089 0.251044,-0.266372 1.467229,-0.485916 0.364782,0.03019 1.294706,0.844162 0.203832,0.304024 0.147243,1.538568 z"
+       transform="matrix(0.08747628,0,0,0.08747628,11.452564,-241.53143)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+       id="path344"
+       inkscape:flatsided="false"
+       sodipodi:sides="7"
+       sodipodi:cx="86.783333"
+       sodipodi:cy="43.98698"
+       sodipodi:r1="2.1755154"
+       sodipodi:r2="2.1615691"
+       sodipodi:arg1="0.42939186"
+       sodipodi:arg2="1.1581203"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 88.761353,44.892687 -1.111097,1.074401 -0.341757,0.131069 -1.532758,-0.198812 -0.315557,-0.185476 -0.800222,-1.322316 -0.05173,-0.362355 0.534898,-1.450089 0.251044,-0.266372 1.467229,-0.485916 0.364782,0.03019 1.294706,0.844162 0.203832,0.304024 0.147243,1.538568 z"
+       transform="matrix(0.06174868,0,0,0.06174868,12.81129,-240.49327)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+       id="path345"
+       inkscape:flatsided="false"
+       sodipodi:sides="7"
+       sodipodi:cx="86.783333"
+       sodipodi:cy="43.98698"
+       sodipodi:r1="2.1755154"
+       sodipodi:r2="2.1615691"
+       sodipodi:arg1="0.42939186"
+       sodipodi:arg2="1.1581203"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 88.761353,44.892687 -1.111097,1.074401 -0.341757,0.131069 -1.532758,-0.198812 -0.315557,-0.185476 -0.800222,-1.322316 -0.05173,-0.362355 0.534898,-1.450089 0.251044,-0.266372 1.467229,-0.485916 0.364782,0.03019 1.294706,0.844162 0.203832,0.304024 0.147243,1.538568 z"
+       transform="matrix(0.1346149,0,0,0.1346149,63.960176,-243.63087)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+       id="path346"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="86.783333"
+       sodipodi:cy="43.98698"
+       sodipodi:r1="3.0491722"
+       sodipodi:r2="2.8357594"
+       sodipodi:arg1="0.70862627"
+       sodipodi:arg2="1.7558238"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 89.098437,45.971355 -2.836809,0.802982 -2.354366,-1.774605 0.723002,-2.858239 2.714036,-1.151639 2.113807,2.055258 z"
+       transform="matrix(0.03057919,0,0,0.03057919,75.707281,-238.85337)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+       id="path347"
+       inkscape:flatsided="false"
+       sodipodi:sides="7"
+       sodipodi:cx="86.783333"
+       sodipodi:cy="43.98698"
+       sodipodi:r1="2.1755154"
+       sodipodi:r2="2.1615691"
+       sodipodi:arg1="0.42939186"
+       sodipodi:arg2="1.1581203"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 88.761353,44.892687 -1.111097,1.074401 -0.341757,0.131069 -1.532758,-0.198812 -0.315557,-0.185476 -0.800222,-1.322316 -0.05173,-0.362355 0.534898,-1.450089 0.251044,-0.266372 1.467229,-0.485916 0.364782,0.03019 1.294706,0.844162 0.203832,0.304024 0.147243,1.538568 z"
+       transform="matrix(0.09994818,0,0,0.09994818,67.899819,-242.04057)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+       id="path348"
+       inkscape:flatsided="false"
+       sodipodi:sides="7"
+       sodipodi:cx="86.783333"
+       sodipodi:cy="43.98698"
+       sodipodi:r1="2.1755154"
+       sodipodi:r2="2.1615691"
+       sodipodi:arg1="0.42939186"
+       sodipodi:arg2="1.1581203"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 88.761353,44.892687 -1.111097,1.074401 -0.341757,0.131069 -1.532758,-0.198812 -0.315557,-0.185476 -0.800222,-1.322316 -0.05173,-0.362355 0.534898,-1.450089 0.251044,-0.266372 1.467229,-0.485916 0.364782,0.03019 1.294706,0.844162 0.203832,0.304024 0.147243,1.538568 z"
+       transform="matrix(0.0642928,0,0,0.0642928,72.459838,-240.40577)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+       id="path349"
+       inkscape:flatsided="false"
+       sodipodi:sides="7"
+       sodipodi:cx="86.783333"
+       sodipodi:cy="43.98698"
+       sodipodi:r1="2.1755154"
+       sodipodi:r2="2.1615691"
+       sodipodi:arg1="0.42939186"
+       sodipodi:arg2="1.1581203"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 88.761353,44.892687 -1.111097,1.074401 -0.341757,0.131069 -1.532758,-0.198812 -0.315557,-0.185476 -0.800222,-1.322316 -0.05173,-0.362355 0.534898,-1.450089 0.251044,-0.266372 1.467229,-0.485916 0.364782,0.03019 1.294706,0.844162 0.203832,0.304024 0.147243,1.538568 z"
+       transform="matrix(0.0642928,0,0,0.0642928,66.456145,-240.40577)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-linecap:round;stroke-linejoin:round"
+       id="path350"
+       inkscape:flatsided="false"
+       sodipodi:sides="7"
+       sodipodi:cx="86.783333"
+       sodipodi:cy="43.98698"
+       sodipodi:r1="2.1755154"
+       sodipodi:r2="2.1615691"
+       sodipodi:arg1="0.42939186"
+       sodipodi:arg2="1.1581203"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 88.761353,44.892687 -1.111097,1.074401 -0.341757,0.131069 -1.532758,-0.198812 -0.315557,-0.185476 -0.800222,-1.322316 -0.05173,-0.362355 0.534898,-1.450089 0.251044,-0.266372 1.467229,-0.485916 0.364782,0.03019 1.294706,0.844162 0.203832,0.304024 0.147243,1.538568 z"
+       transform="matrix(0.04538368,0,0,0.04538368,67.127116,-239.5341)" />
   </g>
 </svg>

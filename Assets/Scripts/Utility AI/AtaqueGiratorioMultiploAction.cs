@@ -56,6 +56,7 @@ public class AtaqueGiratorioMultiplo : UtilityAction
         int numAttacks = 3;
 
         animator.SetBool("SpinAttack", true);
+        context.isAttackNoDamage = true;
 
         float directionX =
             Mathf.Sign(context.player.position.x - transform.position.x);
@@ -100,6 +101,7 @@ public class AtaqueGiratorioMultiplo : UtilityAction
         transform.localRotation = Quaternion.identity;
 
         context.executing = false;
+        context.isAttackNoDamage = false;
 
         animator.SetBool("SpinAttack", false);
 

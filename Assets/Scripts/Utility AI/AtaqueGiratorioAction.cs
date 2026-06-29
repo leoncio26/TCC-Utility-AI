@@ -55,6 +55,7 @@ public class AtaqueGiratorioAction : UtilityAction
         var animator = context.animator;
 
         context.executing = true;
+        context.isAttackNoDamage = true;
 
         animator.SetTrigger("SpinAttack");
 
@@ -96,6 +97,7 @@ public class AtaqueGiratorioAction : UtilityAction
         Debug.Log("Finalizou giro");
 
         animator.SetBool("SpinAttack", false);
+        context.isAttackNoDamage = false;
 
         transform.localRotation = Quaternion.identity;
         

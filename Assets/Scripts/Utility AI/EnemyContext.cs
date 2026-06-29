@@ -31,6 +31,7 @@ public class EnemyContext : MonoBehaviour
     public Transform rightLimit;
 
     public bool isTerremotoAtaque = false;
+    public bool isAttackNoDamage = false;
 
     [HideInInspector] public Rigidbody2D rb;
 

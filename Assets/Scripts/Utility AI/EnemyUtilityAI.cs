@@ -16,13 +16,13 @@ public class EnemyUtilityAI : MonoBehaviour
         UtilityAction best = null;
         float bestScore = 0f;
 
+        if (context.executing) return;
+
         if(context.globalCooldown > 0)
         {
             context.globalCooldown -= Time.deltaTime;
             return;
         }
-
-        if (context.executing) return;
 
         //Debug.Log("Escolheu uma action");
 
