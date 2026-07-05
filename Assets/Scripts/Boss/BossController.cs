@@ -26,8 +26,8 @@ public class BossController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float dir = Mathf.Sign(playerTransform.position.x - transform.position.x);
-        Flip(dir);
+        
+        Flip();
     }
 
     public void Move(float direction)
@@ -58,10 +58,11 @@ public class BossController : MonoBehaviour
         }
     }
 
-    public void Flip(float direction)
+    public void Flip()
     {
+        float dir = Mathf.Sign(playerTransform.position.x - transform.position.x);
         Vector3 scale = transform.localScale;
-        scale.x = direction > 0 ? 1 : -1;
+        scale.x = dir > 0 ? 1 : -1;
         transform.localScale = scale;
     }
 
@@ -85,5 +86,10 @@ public class BossController : MonoBehaviour
     public void OnDeathAnimationFinished()
     {
         animator.enabled = false;
+    }
+
+    public void OnIntroFinished()
+    {
+        utilityAI.enabled = true;
     }
 }

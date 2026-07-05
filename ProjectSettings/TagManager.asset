@@ -9,6 +9,7 @@ TagManager:
   - Boss
   - Projetil
   - Shield
+  - NoDamage
   layers:
   - Default
   - TransparentFX
