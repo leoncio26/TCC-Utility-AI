@@ -1,5 +1,6 @@
 using UnityEditor.Playables;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossController : MonoBehaviour
 {
@@ -50,12 +51,7 @@ public class BossController : MonoBehaviour
 
         healthBar.UpdateHealthBar(maxLife, life);
 
-        if (life == 0.0f)
-        {
-            utilityAI.enabled = false;
-            enabled = false;
-            animator.SetTrigger("Die");
-        }
+        if (life == 0.0f) Die();
     }
 
     public void Flip()
@@ -86,10 +82,20 @@ public class BossController : MonoBehaviour
     public void OnDeathAnimationFinished()
     {
         animator.enabled = false;
+        GameSession.Result = GameResult.Victory;
+
+        SceneManager.LoadScene(1);
     }
 
     public void OnIntroFinished()
     {
         utilityAI.enabled = true;
+    }
+
+    void Die()
+    {
+        utilityAI.enabled = false;
+        enabled = false;
+        animator.SetTrigger("Die");
     }
 }

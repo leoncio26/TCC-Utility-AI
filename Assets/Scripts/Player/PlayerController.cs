@@ -120,6 +120,7 @@ public class PlayerController : MonoBehaviour
 
     private void Die()
     {
-        SceneManager.LoadScene("GameOver");
+        GameSession.Result = GameResult.Defeat;
+        SceneManager.LoadScene(1);
     }
 }
