@@ -11,7 +11,7 @@ public class IntroColisor : MonoBehaviour
             Debug.Log("Colidiu no intro colider");
             animator.enabled = true;
             animator.Play("Cutscene");
-            enabled = false;
+            gameObject.SetActive(false);
         }
     }
 }
