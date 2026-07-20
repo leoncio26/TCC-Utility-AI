@@ -18,6 +18,7 @@ public class BossController : MonoBehaviour
     private float life = 100.0f;
     private float maxLife = 100.0f;
     private Rigidbody2D rb;
+    private bool isIntro = true;
 
     void Start()
     {
@@ -38,7 +39,7 @@ public class BossController : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        if (context.isBlocking || context.isAttackNoDamage)
+        if (context.isBlocking || context.isAttackNoDamage || isIntro)
         {
             //Debug.Log("Está defendendo com escudo");
             return;
@@ -90,6 +91,7 @@ public class BossController : MonoBehaviour
     public void OnIntroFinished()
     {
         utilityAI.enabled = true;
+        isIntro = false;
     }
 
     void Die()

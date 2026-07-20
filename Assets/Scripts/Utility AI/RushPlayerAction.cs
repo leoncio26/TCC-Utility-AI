@@ -13,7 +13,7 @@ public class RushPlayerAction : UtilityAction
         if (dist <= context.combat.attackRange)
             return 0f;
 
-        return 0.6f;
+        return context.bossLifeNormalized;
     }
 
     public override void Execute(EnemyContext context)
