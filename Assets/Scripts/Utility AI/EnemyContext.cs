@@ -33,7 +33,16 @@ public class EnemyContext : MonoBehaviour
     public bool isTerremotoAtaque = false;
     public bool isAttackNoDamage = false;
 
+    [Header("Area Bounds")]
+    [SerializeField] private float meleeEfficiency = 0.5f;
+    [SerializeField] private float giratorioEfficiency = 0.5f;
+    [SerializeField] private float giratorioDuploEfficiency = 0.5f;
+    [SerializeField] private float terremotoEfficiency = 0.5f;
+    [SerializeField] private float saltoEfficiency = 0.5f;
+    [SerializeField] private float ataqueEsmagadorEfficiency = 0.5f;
+
     [HideInInspector] public Rigidbody2D rb;
+
 
     private void Awake()
     {
