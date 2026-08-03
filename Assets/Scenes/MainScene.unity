@@ -1273,6 +1273,12 @@ MonoBehaviour:
   rightLimit: {fileID: 552693091}
   isTerremotoAtaque: 0
   isAttackNoDamage: 0
+  meleeEfficiency: 0.5
+  giratorioEfficiency: 0.5
+  giratorioDuploEfficiency: 0.5
+  terremotoEfficiency: 0.5
+  saltoEfficiency: 0.5
+  ataqueEsmagadorEfficiency: 0.5
   rb: {fileID: 0}
 --- !u!114 &985872886
 MonoBehaviour:
@@ -1802,6 +1808,12 @@ MonoBehaviour:
   rightLimit: {fileID: 0}
   isTerremotoAtaque: 0
   isAttackNoDamage: 0
+  meleeEfficiency: 0.5
+  giratorioEfficiency: 0.5
+  giratorioDuploEfficiency: 0.5
+  terremotoEfficiency: 0.5
+  saltoEfficiency: 0.5
+  ataqueEsmagadorEfficiency: 0.5
   rb: {fileID: 0}
 --- !u!50 &1175683144
 Rigidbody2D:
@@ -3226,7 +3238,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.488929, y: 0}
+  m_Offset: {x: 2.8862736, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3236,7 +3248,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.8936787, y: 1}
+  m_Size: {x: 6.6883683, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &2028013743
 MonoBehaviour:

@@ -28,7 +28,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         moveX = Input.GetAxis("Horizontal");
-        //textLife.text = life.ToString();
 
         if (isGrounded)
         {
