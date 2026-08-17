@@ -19,6 +19,7 @@ public class BossController : MonoBehaviour
     private float maxLife = 100.0f;
     private Rigidbody2D rb;
     private bool isIntro = true;
+    private bool isAttacking = false;
 
     void Start()
     {
@@ -57,6 +58,8 @@ public class BossController : MonoBehaviour
 
     public void Flip()
     {
+        if (isAttacking) return;
+
         float dir = Mathf.Sign(playerTransform.position.x - transform.position.x);
         Vector3 scale = transform.localScale;
         scale.x = dir > 0 ? 1 : -1;
@@ -100,4 +103,12 @@ public class BossController : MonoBehaviour
         enabled = false;
         animator.SetTrigger("Die");
     }
+
+    private void SetAttacking(bool state)
+    {
+        isAttacking = state;
+    }
+
+    public void FinishAttacking() => SetAttacking(false);
+    public void Attacking() => SetAttacking(true);
 }
