@@ -1,46 +1,34 @@
 fileFormatVersion: 2
-guid: 02e00c73b19f8d84d9a0d82cf338cacb
+guid: 9958aedd61764184385ae3b7720f67b7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -19314004337531388
-    second: Cutscene_0
+      213: 7655373690443347022
+    second: player_die_0
   - first:
-      213: 3896647908655882991
-    second: Cutscene_1
+      213: -5734390907000970668
+    second: player_die_1
   - first:
-      213: 4955962947946295277
-    second: Cutscene_2
+      213: 7742148393393280329
+    second: player_die_2
   - first:
-      213: -2515335338873841680
-    second: Cutscene_3
+      213: 558616767113724153
+    second: player_die_3
   - first:
-      213: -2615329158386491329
-    second: Cutscene_4
+      213: 2212775953322428132
+    second: player_die_4
   - first:
-      213: -1955353675610931316
-    second: Cutscene_5
+      213: -8187471560655110634
+    second: player_die_5
   - first:
-      213: 316691335960792939
-    second: Cutscene_6
+      213: 7942954343436529536
+    second: player_die_6
   - first:
-      213: 6652590560915573882
-    second: Cutscene_7
+      213: -228167492580779429
+    second: player_die_7
   - first:
-      213: -6801718789317557318
-    second: Cutscene_8
-  - first:
-      213: 6551316420786515257
-    second: Cutscene_9
-  - first:
-      213: 7736422168928544556
-    second: Cutscene_10
-  - first:
-      213: 5039957005971797222
-    second: Cutscene_11
-  - first:
-      213: -4049416122345621141
-    second: Cutscene_12
+      213: -8156177657805130850
+    second: player_die_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -136,13 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cutscene_0
+      name: player_die_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 200
-        height: 139
+        width: 162
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4066540f3026bbff0800000000000000
-      internalID: -19314004337531388
+      spriteID: e443fb1cfc95d3a60800000000000000
+      internalID: 7655373690443347022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cutscene_1
+      name: player_die_1
       rect:
         serializedVersion: 2
-        x: 200
+        x: 162
         y: 0
-        width: 200
-        height: 139
+        width: 162
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe2e33aa0aca31630800000000000000
-      internalID: 3896647908655882991
+      spriteID: 4522af82ad95b60b0800000000000000
+      internalID: -5734390907000970668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cutscene_2
+      name: player_die_2
       rect:
         serializedVersion: 2
-        x: 400
+        x: 324
         y: 0
-        width: 200
-        height: 139
+        width: 162
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: def26581b0e17c440800000000000000
-      internalID: 4955962947946295277
+      spriteID: 9455192b1f2a17b60800000000000000
+      internalID: 7742148393393280329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cutscene_3
+      name: player_die_3
       rect:
         serializedVersion: 2
-        x: 600
+        x: 486
         y: 0
-        width: 200
-        height: 139
+        width: 162
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f7107b06dbb71dd0800000000000000
-      internalID: -2515335338873841680
+      spriteID: 9f004617dfa90c700800000000000000
+      internalID: 558616767113724153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cutscene_4
+      name: player_die_4
       rect:
         serializedVersion: 2
-        x: 800
+        x: 648
         y: 0
-        width: 200
-        height: 139
+        width: 162
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f30e6afacfb74bbd0800000000000000
-      internalID: -2615329158386491329
+      spriteID: 4e64f49710c55be10800000000000000
+      internalID: 2212775953322428132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cutscene_5
+      name: player_die_5
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 810
         y: 0
-        width: 200
-        height: 139
+        width: 162
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +249,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8fb4f221303dd4e0800000000000000
-      internalID: -1955353675610931316
+      spriteID: 61ef982aef1406e80800000000000000
+      internalID: -8187471560655110634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cutscene_6
+      name: player_die_6
       rect:
         serializedVersion: 2
-        x: 1200
+        x: 972
         y: 0
-        width: 200
-        height: 139
+        width: 162
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6f0367971d156400800000000000000
-      internalID: 316691335960792939
+      spriteID: 08f2eab44ea0b3e60800000000000000
+      internalID: 7942954343436529536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cutscene_7
+      name: player_die_7
       rect:
         serializedVersion: 2
-        x: 1400
+        x: 1134
         y: 0
-        width: 200
-        height: 139
+        width: 162
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +293,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7c4d734edfb25c50800000000000000
-      internalID: 6652590560915573882
+      spriteID: b5a5e67dfd265dcf0800000000000000
+      internalID: -228167492580779429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cutscene_8
+      name: player_die_8
       rect:
         serializedVersion: 2
-        x: 1600
+        x: 1296
         y: 0
-        width: 200
-        height: 139
+        width: 162
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,8 +315,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab380a45cc07b91a0800000000000000
-      internalID: -6801718789317557318
+      spriteID: e933c8d22af6fce80800000000000000
+      internalID: -8156177657805130850
       vertices: []
       indices: 
       edges: []
@@ -337,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e25a95f786a8dc24e81bf6c82a618c87
+    spriteID: b27294a3e384e864797d38265184c143
     internalID: 0
     vertices: []
     indices: 
@@ -347,15 +335,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cutscene_0: -19314004337531388
-      Cutscene_1: 3896647908655882991
-      Cutscene_2: 4955962947946295277
-      Cutscene_3: -2515335338873841680
-      Cutscene_4: -2615329158386491329
-      Cutscene_5: -1955353675610931316
-      Cutscene_6: 316691335960792939
-      Cutscene_7: 6652590560915573882
-      Cutscene_8: -6801718789317557318
+      player_die_0: 7655373690443347022
+      player_die_1: -5734390907000970668
+      player_die_2: 7742148393393280329
+      player_die_3: 558616767113724153
+      player_die_4: 2212775953322428132
+      player_die_5: -8187471560655110634
+      player_die_6: 7942954343436529536
+      player_die_7: -228167492580779429
+      player_die_8: -8156177657805130850
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

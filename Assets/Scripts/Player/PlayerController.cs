@@ -114,10 +114,10 @@ public class PlayerController : MonoBehaviour
 
         healthBar.UpdateHealthBar(maxLife, life);
 
-        if (life == 0) Die();
+        if (life == 0) anim.Play("Die");
     }
 
-    private void Die()
+    private void Died()
     {
         GameSession.Result = GameResult.Defeat;
         SceneManager.LoadScene(1);
